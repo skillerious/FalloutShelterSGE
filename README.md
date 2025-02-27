@@ -1,6 +1,6 @@
 # Fallout Shelter Save Editor
 
-![Fallout Shelter Save Editor](assets/banner.png)
+![Fallout Shelter Save Editor](https://github.com/skillerious/FalloutShelterSGE/blob/main/assets/Screenshot%202025-02-27%20201107.png)
 
 A comprehensive save editor for **Fallout Shelter**, built with **Python**, **PyQt5**, and **qt-material**. This editor is inspired by the [online save editor](https://rakion99.github.io/shelter-editor/) and brings a **desktop-based** alternative with an enhanced user interface and additional features.
 
@@ -128,13 +128,10 @@ To reset settings, delete the `settings.json` file.
 ## 🖼 Screenshots
 
 **Vault Management Interface:**
-![Vault Management](assets/vault-tab.png)
+![Fallout Shelter Save Editor](https://github.com/skillerious/FalloutShelterSGE/blob/main/assets/Screenshot%202025-02-27%20201107.png)
 
-**Dwellers Editing:**
-![Dwellers Editing](assets/dwellers-tab.png)
-
-**Advanced JSON Editor:**
-![JSON Editor](assets/json-editor.png)
+**Settings:
+![Fallout Shelter Save Editor](https://github.com/skillerious/FalloutShelterSGE/blob/main/assets/Screenshot%202025-02-27%20201128.png)
 
 ---
 
