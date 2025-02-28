@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 import sys
 import os
 import json
@@ -50,6 +49,47 @@ def encrypt_sav(json_text):
         return base64.b64encode(encrypted).decode('utf-8')
     except Exception as e:
         raise Exception(f"Encryption failed: {str(e)}")
+
+# ============================================================
+#  Worker Thread for File Loading
+# ============================================================
+class FileLoaderWorker(QtCore.QThread):
+    loaded = QtCore.pyqtSignal(dict)
+    error = QtCore.pyqtSignal(str)
+    
+    def __init__(self, filename, parent=None):
+        super().__init__(parent)
+        self.filename = filename
+        
+    def run(self):
+        try:
+            with open(self.filename, "r") as f:
+                content = f.read()
+            # Perform decryption and JSON decoding (this may take a while)
+            json_text = decrypt_sav(content)
+            data = json.loads(json_text)
+            self.loaded.emit(data)
+        except Exception as e:
+            self.error.emit(str(e))
+
+# ============================================================
+#  Borderless Loading Dialog with Progress Bar
+# ============================================================
+class LoadingDialog(QtWidgets.QDialog):
+    def __init__(self, parent=None):
+        super().__init__(parent)
+        # Make the dialog borderless
+        self.setWindowFlags(QtCore.Qt.FramelessWindowHint | QtCore.Qt.Dialog)
+        self.setModal(True)
+        layout = QtWidgets.QVBoxLayout(self)
+        self.label = QtWidgets.QLabel("Loading, please wait...")
+        self.progressBar = QtWidgets.QProgressBar()
+        # Indeterminate progress bar
+        self.progressBar.setRange(0, 0)
+        layout.addWidget(self.label)
+        layout.addWidget(self.progressBar)
+        self.setLayout(layout)
+        self.resize(300, 100)
 
 # ============================================================
 #  Vault Tab Widget (with Advanced Vault Options)
@@ -146,8 +186,6 @@ class VaultTab(QWidget):
         cheatLayout3.addWidget(btnUnlockThemes)
         mainLayout.addLayout(cheatLayout3)
 
-        self.versionLabel = QLabel("")
-        mainLayout.addWidget(self.versionLabel)
         self.setLayout(mainLayout)
         
     def setData(self, data):
@@ -157,13 +195,13 @@ class VaultTab(QWidget):
         except:
             self.vaultNameSpin.setValue(0)
         resources = vault.get("storage", {}).get("resources", {})
-        self.capsSpin.setValue(int(resources.get("Nuka", 0)))
-        self.nukaSpin.setValue(int(resources.get("NukaColaQuantum", 0)))
-        self.foodSpin.setValue(int(resources.get("Food", 0)))
-        self.energySpin.setValue(int(resources.get("Energy", 0)))
-        self.waterSpin.setValue(int(resources.get("Water", 0)))
-        self.stimpackSpin.setValue(int(resources.get("StimPack", 0)))
-        self.radawaySpin.setValue(int(resources.get("RadAway", 0)))
+        self.capsSpin.setValue(int(resources.get("Nuka") or 0))
+        self.nukaSpin.setValue(int(resources.get("NukaColaQuantum") or 0))
+        self.foodSpin.setValue(int(resources.get("Food") or 0))
+        self.energySpin.setValue(int(resources.get("Energy") or 0))
+        self.waterSpin.setValue(int(resources.get("Water") or 0))
+        self.stimpackSpin.setValue(int(resources.get("StimPack") or 0))
+        self.radawaySpin.setValue(int(resources.get("RadAway") or 0))
         lb = vault.get("LunchBoxesByType", [])
         self.lunchboxSpin.setValue(lb.count(0))
         self.handySpin.setValue(lb.count(1))
@@ -171,23 +209,26 @@ class VaultTab(QWidget):
         self.starterPackSpin.setValue(lb.count(3))
         mode = vault.get("VaultMode", "Normal")
         idx = self.modeCombo.findText(mode)
-        if idx >= 0: self.modeCombo.setCurrentIndex(idx)
+        if idx >= 0:
+            self.modeCombo.setCurrentIndex(idx)
         theme = vault.get("VaultTheme", 0)
-        idx = self.themeCombo.findData(int(theme))
-        if idx >= 0: self.themeCombo.setCurrentIndex(idx)
-        self.xpSpin.setValue(int(vault.get("XP", 0)))
-        self.populationSpin.setValue(int(vault.get("population", 0)))
-        self.happinessSpinVault.setValue(int(vault.get("happiness", 0)))
-        self.scoreSpin.setValue(int(vault.get("score", 0)))
-        version = vault.get("appVersion", "1.0.0")
-        self.versionLabel.setText("App Version: " + str(version))
+        idx = self.themeCombo.findData(int(theme or 0))
+        if idx >= 0:
+            self.themeCombo.setCurrentIndex(idx)
+        self.xpSpin.setValue(int(vault.get("XP") or 0))
+        self.populationSpin.setValue(int(vault.get("population") or 0))
+        self.happinessSpinVault.setValue(int(vault.get("happiness") or 0))
+        self.scoreSpin.setValue(int(vault.get("score") or 0))
         
     def updateData(self, data):
-        if "vault" not in data: data["vault"] = {}
+        if "vault" not in data:
+            data["vault"] = {}
         vault = data["vault"]
         vault["VaultName"] = str(self.vaultNameSpin.value()).zfill(3)
-        if "storage" not in vault: vault["storage"] = {}
-        if "resources" not in vault["storage"]: vault["storage"]["resources"] = {}
+        if "storage" not in vault:
+            vault["storage"] = {}
+        if "resources" not in vault["storage"]:
+            vault["storage"]["resources"] = {}
         resources = vault["storage"]["resources"]
         resources["Nuka"] = self.capsSpin.value()
         resources["NukaColaQuantum"] = self.nukaSpin.value()
@@ -236,8 +277,10 @@ class DwellersTab(QWidget):
         self.dwellerList.itemClicked.connect(self.onItemSelected)
         mainLayout.addWidget(self.dwellerList, 1)
         detailLayout = QFormLayout()
-        self.firstNameEdit = QLineEdit(); detailLayout.addRow("First Name:", self.firstNameEdit)
-        self.lastNameEdit = QLineEdit(); detailLayout.addRow("Last Name:", self.lastNameEdit)
+        self.firstNameEdit = QLineEdit()
+        detailLayout.addRow("First Name:", self.firstNameEdit)
+        self.lastNameEdit = QLineEdit()
+        detailLayout.addRow("Last Name:", self.lastNameEdit)
         self.genderCombo = QComboBox()
         self.genderCombo.addItem("Female", 1)
         self.genderCombo.addItem("Male", 2)
@@ -254,8 +297,10 @@ class DwellersTab(QWidget):
         detailLayout.addRow("Level:", self.levelSpin)
         self.xpSpin = QSpinBox(); self.xpSpin.setRange(0, 10000)
         detailLayout.addRow("Experience:", self.xpSpin)
-        self.skinColorEdit = QLineEdit(); detailLayout.addRow("Skin Color (Hex):", self.skinColorEdit)
-        self.hairColorEdit = QLineEdit(); detailLayout.addRow("Hair Color (Hex):", self.hairColorEdit)
+        self.skinColorEdit = QLineEdit()
+        detailLayout.addRow("Skin Color (Hex):", self.skinColorEdit)
+        self.hairColorEdit = QLineEdit()
+        detailLayout.addRow("Hair Color (Hex):", self.hairColorEdit)
         self.pregnantCombo = QComboBox()
         self.pregnantCombo.addItem("Not Pregnant", False)
         self.pregnantCombo.addItem("Pregnant", True)
@@ -276,13 +321,17 @@ class DwellersTab(QWidget):
         self.statsSpins = []
         for label in ["S", "P", "E", "C", "I", "A", "L"]:
             spin = QSpinBox(); spin.setRange(0, 10); spin.setPrefix(label + ":")
-            statsLayout.addWidget(spin); self.statsSpins.append(spin)
+            statsLayout.addWidget(spin)
+            self.statsSpins.append(spin)
         detailLayout.addRow("SPECIAL:", statsLayout)
         self.btnMaxStats = QPushButton("Max Stats")
         self.btnMaxStats.clicked.connect(self.maxStats)
         detailLayout.addRow(self.btnMaxStats)
-        detailWidget = QWidget(); detailWidget.setLayout(detailLayout)
-        scroll = QScrollArea(); scroll.setWidget(detailWidget); scroll.setWidgetResizable(True)
+        detailWidget = QWidget()
+        detailWidget.setLayout(detailLayout)
+        scroll = QScrollArea()
+        scroll.setWidget(detailWidget)
+        scroll.setWidgetResizable(True)
         mainLayout.addWidget(scroll, 2)
         self.setLayout(mainLayout)
         
@@ -302,27 +351,31 @@ class DwellersTab(QWidget):
         self.firstNameEdit.setText(d.get("name", ""))
         self.lastNameEdit.setText(d.get("lastName", ""))
         idx = self.genderCombo.findData(d.get("gender", 2))
-        if idx >= 0: self.genderCombo.setCurrentIndex(idx)
-        self.happinessSpin.setValue(d.get("happiness", {}).get("happinessValue", 0))
-        self.healthSpin.setValue(d.get("health", {}).get("healthValue", 0))
-        self.maxHealthSpin.setValue(d.get("health", {}).get("maxHealth", 0))
-        self.radiationSpin.setValue(d.get("health", {}).get("radiationValue", 0))
-        self.levelSpin.setValue(d.get("experience", {}).get("currentLevel", 1))
-        self.xpSpin.setValue(d.get("experience", {}).get("currentXP", 0))
+        if idx >= 0:
+            self.genderCombo.setCurrentIndex(idx)
+        self.happinessSpin.setValue(int(d.get("happiness", {}).get("happinessValue", 0)))
+        self.healthSpin.setValue(int(d.get("health", {}).get("healthValue", 0)))
+        self.maxHealthSpin.setValue(int(d.get("health", {}).get("maxHealth", 0)))
+        self.radiationSpin.setValue(int(d.get("health", {}).get("radiationValue", 0)))
+        self.levelSpin.setValue(int(d.get("experience", {}).get("currentLevel", 1)))
+        self.xpSpin.setValue(int(d.get("experience", {}).get("currentXP", 0)))
         self.skinColorEdit.setText(str(d.get("skinColor", "")))
         self.hairColorEdit.setText(str(d.get("hairColor", "")))
         self.pregnantCombo.setCurrentIndex(0 if not d.get("pregnant", False) else 1)
         self.babyReadyCombo.setCurrentIndex(0 if not d.get("babyReady", False) else 1)
         idx = self.outfitCombo.findData(d.get("equipedOutfit", {}).get("id", ""))
-        if idx >= 0: self.outfitCombo.setCurrentIndex(idx)
+        if idx >= 0:
+            self.outfitCombo.setCurrentIndex(idx)
         idx = self.weaponCombo.findData(d.get("equipedWeapon", {}).get("id", ""))
-        if idx >= 0: self.weaponCombo.setCurrentIndex(idx)
+        if idx >= 0:
+            self.weaponCombo.setCurrentIndex(idx)
         stats = d.get("stats", {}).get("stats", [])
         for i in range(min(7, len(self.statsSpins))):
-            self.statsSpins[i].setValue(stats[i].get("value", 0))
+            self.statsSpins[i].setValue(int(stats[i].get("value", 0)))
             
     def updateCurrentDweller(self):
-        if not self.current_dweller: return
+        if not self.current_dweller:
+            return
         d = self.current_dweller
         d["name"] = self.firstNameEdit.text()
         d["lastName"] = self.lastNameEdit.text()
@@ -345,7 +398,8 @@ class DwellersTab(QWidget):
                 stats[i]["value"] = self.statsSpins[i].value()
                 
     def maxStats(self):
-        if not self.current_dweller: return
+        if not self.current_dweller:
+            return
         for spin in self.statsSpins:
             spin.setValue(10)
         self.updateCurrentDweller()
@@ -356,17 +410,18 @@ class DwellersTab(QWidget):
 class WastelandTeamEditor(QWidget):
     def __init__(self, team, is_actor=False):
         super().__init__()
-        self.team = team; self.is_actor = is_actor
+        self.team = team
+        self.is_actor = is_actor
         self.initUI()
     def initUI(self):
         layout = QFormLayout()
         self.teamIndexLabel = QLabel("Team Index: " + str(self.team.get("teamIndex", "N/A")))
         layout.addRow(self.teamIndexLabel)
         self.timeSpentSpin = QSpinBox(); self.timeSpentSpin.setRange(0, 10**6)
-        self.timeSpentSpin.setValue(self.team.get("elapsedTimeAliveExploring", 0))
+        self.timeSpentSpin.setValue(int(self.team.get("elapsedTimeAliveExploring") or 0))
         layout.addRow("Time Spent (sec):", self.timeSpentSpin)
         self.returnDurationSpin = QSpinBox(); self.returnDurationSpin.setRange(0, 10**6)
-        self.returnDurationSpin.setValue(self.team.get("returnTripDuration", 0))
+        self.returnDurationSpin.setValue(int(self.team.get("returnTripDuration") or 0))
         layout.addRow("Return Duration (sec):", self.returnDurationSpin)
         equip = {}
         if self.is_actor:
@@ -374,16 +429,16 @@ class WastelandTeamEditor(QWidget):
         else:
             equip = self.team.get("teamEquipment", {}).get("storage", {}).get("resources", {})
         self.stimSpin = QSpinBox(); self.stimSpin.setRange(0, 10**6)
-        self.stimSpin.setValue(equip.get("StimPack", 0))
+        self.stimSpin.setValue(int(equip.get("StimPack") or 0))
         layout.addRow("StimPack:", self.stimSpin)
         self.radSpin = QSpinBox(); self.radSpin.setRange(0, 10**6)
-        self.radSpin.setValue(equip.get("RadAway", 0))
+        self.radSpin.setValue(int(equip.get("RadAway") or 0))
         layout.addRow("RadAway:", self.radSpin)
         self.capsSpin = QSpinBox(); self.capsSpin.setRange(0, 10**6)
-        self.capsSpin.setValue(equip.get("Nuka", 0))
+        self.capsSpin.setValue(int(equip.get("Nuka") or 0))
         layout.addRow("Caps:", self.capsSpin)
         self.nukaSpin = QSpinBox(); self.nukaSpin.setRange(0, 10**6)
-        self.nukaSpin.setValue(equip.get("NukaColaQuantum", 0))
+        self.nukaSpin.setValue(int(equip.get("NukaColaQuantum") or 0))
         layout.addRow("Nuka Cola Quantum:", self.nukaSpin)
         self.setLayout(layout)
     def updateTeam(self):
@@ -405,14 +460,16 @@ class WastelandTeamEditor(QWidget):
 class WastelandTeamsTab(QWidget):
     def __init__(self, main_window, is_actor=False):
         super().__init__()
-        self.main_window = main_window; self.is_actor = is_actor
+        self.main_window = main_window
+        self.is_actor = is_actor
         self.initUI()
     def initUI(self):
         layout = QHBoxLayout()
         self.teamList = QListWidget()
         self.teamList.itemClicked.connect(self.onTeamSelected)
         layout.addWidget(self.teamList, 1)
-        self.editorArea = QScrollArea(); self.editorArea.setWidgetResizable(True)
+        self.editorArea = QScrollArea()
+        self.editorArea.setWidgetResizable(True)
         layout.addWidget(self.editorArea, 2)
         self.setLayout(layout)
         self.teams = []
@@ -463,7 +520,8 @@ class RoomsTab(QWidget):
         self.roomList = QListWidget()
         self.roomList.itemClicked.connect(self.onRoomSelected)
         layout.addWidget(self.roomList, 1)
-        self.editorArea = QScrollArea(); self.editorArea.setWidgetResizable(True)
+        self.editorArea = QScrollArea()
+        self.editorArea.setWidgetResizable(True)
         layout.addWidget(self.editorArea, 2)
         self.setLayout(layout)
     def setData(self, rooms):
@@ -486,7 +544,8 @@ class RoomsTab(QWidget):
 class RoomEditor(QWidget):
     def __init__(self, idx, room):
         super().__init__()
-        self.idx = idx; self.room = room
+        self.idx = idx
+        self.room = room
         self.initUI()
     def initUI(self):
         layout = QFormLayout()
@@ -494,8 +553,9 @@ class RoomEditor(QWidget):
         layout.addRow("Room Type:", self.roomTypeEdit)
         self.stateEdit = QLineEdit(str(self.room.get("currentStateName", "")))
         layout.addRow("Current State:", self.stateEdit)
-        self.progressSpin = QSpinBox(); self.progressSpin.setRange(0, 100)
-        self.progressSpin.setValue(self.room.get("progress", 0))
+        self.progressSpin = QSpinBox()
+        self.progressSpin.setRange(0, 100)
+        self.progressSpin.setValue(int(self.room.get("progress", 0)))
         layout.addRow("Progress (%):", self.progressSpin)
         btnUpdate = QPushButton("Apply Changes")
         btnUpdate.clicked.connect(self.updateRoom)
@@ -555,6 +615,9 @@ class MainWindow(QMainWindow):
         self.initUI()
         
     def initUI(self):
+        self.setDockOptions(QtWidgets.QMainWindow.AllowTabbedDocks | 
+                            QtWidgets.QMainWindow.AnimatedDocks | 
+                            QtWidgets.QMainWindow.AllowNestedDocks)
         self.createToolBar()
         self.tabs = QTabWidget()
         self.vaultTab = VaultTab(self)
@@ -573,8 +636,12 @@ class MainWindow(QMainWindow):
         self.statusMsgLabel.setText("Ready")
         
     def createToolBar(self):
-        toolbar = QToolBar("Main Toolbar")
-        self.addToolBar(toolbar)
+        toolbar = QToolBar("Main Toolbar", self)
+        toolbar.setMovable(True)
+        toolbar.setFloatable(True)
+        toolbar.setAllowedAreas(QtCore.Qt.TopToolBarArea | QtCore.Qt.LeftToolBarArea |
+                                  QtCore.Qt.RightToolBarArea | QtCore.Qt.BottomToolBarArea)
+        self.addToolBar(QtCore.Qt.TopToolBarArea, toolbar)
         openIcon = QtGui.QIcon("assets/open.png")
         saveIcon = QtGui.QIcon("assets/save.png")
         aboutIcon = QtGui.QIcon("assets/about.png")
@@ -626,14 +693,15 @@ class MainWindow(QMainWindow):
         
     def setupStatusBar(self):
         self.statusBar().clearMessage()
+        # Add the version label to the far left of the status bar.
         self.versionStatusLabel = QtWidgets.QLabel("App Version: 1.0.0")
+        self.statusBar().addWidget(self.versionStatusLabel)
         self.statusMsgLabel = QtWidgets.QLabel("")
         self.statusMsgLabel.setAlignment(QtCore.Qt.AlignCenter)
         self.statusMsgLabel.setSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Preferred)
+        self.statusBar().addWidget(self.statusMsgLabel, 1)
         self.developerStatusLabel = QtWidgets.QLabel("Developed with <span style='color: red;'>❤️</span> by Robin Doak")
         self.developerStatusLabel.setTextFormat(QtCore.Qt.RichText)
-        self.statusBar().addWidget(self.versionStatusLabel)
-        self.statusBar().addWidget(self.statusMsgLabel, 1)
         self.statusBar().addPermanentWidget(self.developerStatusLabel)
         
     def about(self):
@@ -650,7 +718,6 @@ class MainWindow(QMainWindow):
     def open_settings(self):
         dlg = SettingsDialog(self.app_settings, self)
         if dlg.exec_() == QtWidgets.QDialog.Accepted:
-            # Reapply theme based on updated settings
             from qt_material import apply_stylesheet
             app = QtWidgets.QApplication.instance()
             theme = self.app_settings.get_option("theme", "dark_teal")
@@ -660,30 +727,36 @@ class MainWindow(QMainWindow):
     def open_file(self):
         fname, _ = QFileDialog.getOpenFileName(self, "Open .sav File", "", "Save Files (*.sav);;All Files (*)")
         if fname:
-            try:
-                with open(fname, "r") as f:
-                    content = f.read()
-                json_text = decrypt_sav(content)
-                self.save_data = json.loads(json_text)
-                self.vaultTab.setData(self.save_data)
-                dwellers = self.save_data.get("dwellers", {}).get("dwellers", [])
-                self.dwellerTab.setData(dwellers)
-                self.wastelandTab.setData(self.save_data)
-                if "rooms" in self.save_data.get("vault", {}):
-                    self.roomsTab.setData(self.save_data["vault"]["rooms"])
-                self.advancedTab.setData(self.save_data)
-                version = self.save_data.get("appVersion", "1.0.0")
-                self.versionStatusLabel.setText("App Version: " + str(version))
-                self.statusMsgLabel.setText("File loaded successfully")
-                # Update settings with the last opened file and recent files list
-                self.app_settings.set_option("last_opened_file", fname)
-                recent = self.app_settings.get_option("recent_files", [])
-                if fname not in recent:
-                    recent.append(fname)
-                    self.app_settings.set_option("recent_files", recent)
-            except Exception as e:
-                QMessageBox.critical(self, "Error", str(e))
-                
+            progressDialog = LoadingDialog(self)
+            progressDialog.show()
+            
+            self.loader = FileLoaderWorker(fname)
+            self.loader.loaded.connect(self.onFileLoaded)
+            self.loader.error.connect(self.onFileLoadError)
+            self.loader.finished.connect(progressDialog.close)
+            self.loader.start()
+            
+    def onFileLoaded(self, data):
+        self.save_data = data
+        self.vaultTab.setData(self.save_data)
+        dwellers = self.save_data.get("dwellers", {}).get("dwellers", [])
+        self.dwellerTab.setData(dwellers)
+        self.wastelandTab.setData(self.save_data)
+        if "rooms" in self.save_data.get("vault", {}):
+            self.roomsTab.setData(self.save_data["vault"]["rooms"])
+        self.advancedTab.setData(self.save_data)
+        version = self.save_data.get("appVersion", "1.0.0")
+        self.versionStatusLabel.setText("App Version: " + str(version))
+        self.statusMsgLabel.setText("File loaded successfully")
+        self.app_settings.set_option("last_opened_file", self.loader.filename)
+        recent = self.app_settings.get_option("recent_files", [])
+        if self.loader.filename not in recent:
+            recent.append(self.loader.filename)
+            self.app_settings.set_option("recent_files", recent)
+        
+    def onFileLoadError(self, errorMessage):
+        QMessageBox.critical(self, "Error", errorMessage)
+        
     def save_file(self):
         if not self.save_data:
             QMessageBox.warning(self, "No Data", "Please load a save file first.")
@@ -771,7 +844,6 @@ class MainWindow(QMainWindow):
 # ============================================================
 def main():
     app = QtWidgets.QApplication(sys.argv)
-    # Apply initial theme from settings
     settings_instance = Settings()
     theme = settings_instance.get_option("theme", "dark_teal")
     apply_stylesheet(app, theme=f"{theme}.xml")

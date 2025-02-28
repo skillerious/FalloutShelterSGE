@@ -27,9 +27,19 @@ class Settings:
             "log_level": "Info",
             "last_opened_file": "",
             "recent_files": [],
-            "debug_mode": False
+            "debug_mode": False,
+            # Backup options:
+            "auto_backup": False,
+            "backup_on_load": False,
+            "backup_folder": os.path.join(os.path.expanduser("~"), "BackupSave"),
+            "backup_frequency": 10,        # in minutes
+            "append_timestamp": True,      # whether to append timestamp to backup file name
+            "max_backup_files": 5,         # maximum backup files to keep
+            # Misc options:
+            "default_open_folder": os.path.expanduser("~"),
+            "language": "English",
+            "font_size": 12
         }
-        # Start with defaults then load (if available) to override.
         self.options = self.default_options.copy()
         self.load()
 
@@ -74,7 +84,7 @@ class SettingsDialog(QtWidgets.QDialog):
         super(SettingsDialog, self).__init__(parent)
         self.settings = settings
         self.setWindowTitle("Settings")
-        self.resize(600, 400)
+        self.resize(700, 500)
         self.initUI()
 
     def initUI(self):
@@ -84,14 +94,18 @@ class SettingsDialog(QtWidgets.QDialog):
         self.tabWidget = QtWidgets.QTabWidget()
         mainLayout.addWidget(self.tabWidget)
 
-        # Create individual tabs
+        # Create individual tabs: General, Appearance, Advanced, Backup, Misc
         self.generalTab = self.createGeneralTab()
         self.appearanceTab = self.createAppearanceTab()
         self.advancedTab = self.createAdvancedTab()
+        self.backupTab = self.createBackupTab()
+        self.miscTab = self.createMiscTab()
 
         self.tabWidget.addTab(self.generalTab, "General")
         self.tabWidget.addTab(self.appearanceTab, "Appearance")
         self.tabWidget.addTab(self.advancedTab, "Advanced")
+        self.tabWidget.addTab(self.backupTab, "Backup")
+        self.tabWidget.addTab(self.miscTab, "Misc")
 
         # Bottom button row
         buttonLayout = QtWidgets.QHBoxLayout()
@@ -137,7 +151,7 @@ class SettingsDialog(QtWidgets.QDialog):
         formLayout = QtWidgets.QFormLayout(tab)
         
         self.themeCombo = QtWidgets.QComboBox()
-        # List of example themes; adjust based on available qt-material themes.
+        # Example themes; adjust based on available qt-material themes.
         themes = ["dark_teal", "light_blue", "dark_blue", "dark_pink", "light"]
         self.themeCombo.addItems(themes)
         formLayout.addRow("Theme:", self.themeCombo)
@@ -159,8 +173,76 @@ class SettingsDialog(QtWidgets.QDialog):
         
         return tab
 
+    def createBackupTab(self):
+        """Creates the 'Backup' settings tab."""
+        tab = QtWidgets.QWidget()
+        formLayout = QtWidgets.QFormLayout(tab)
+        
+        self.autoBackupCheckbox = QtWidgets.QCheckBox("Enable Automatic Backup")
+        formLayout.addRow("Auto Backup:", self.autoBackupCheckbox)
+        
+        self.backupOnLoadCheckbox = QtWidgets.QCheckBox("Backup on File Load")
+        formLayout.addRow("Backup on Load:", self.backupOnLoadCheckbox)
+        
+        self.backupFrequencySpin = QtWidgets.QSpinBox()
+        self.backupFrequencySpin.setRange(1, 1440)
+        formLayout.addRow("Backup Frequency (min):", self.backupFrequencySpin)
+        
+        self.appendTimestampCheckbox = QtWidgets.QCheckBox("Append Timestamp to Backup Filename")
+        formLayout.addRow("Append Timestamp:", self.appendTimestampCheckbox)
+        
+        self.maxBackupFilesSpin = QtWidgets.QSpinBox()
+        self.maxBackupFilesSpin.setRange(1, 100)
+        formLayout.addRow("Max Backup Files:", self.maxBackupFilesSpin)
+        
+        self.backupFolderEdit = QtWidgets.QLineEdit()
+        default_folder = self.settings.get_option("default_open_folder", os.path.expanduser("~"))
+        self.backupFolderEdit.setText(os.path.join(default_folder, "BackupSave"))
+        backupFolderButton = QtWidgets.QPushButton("Browse")
+        backupFolderButton.clicked.connect(self.browseBackupFolder)
+        folderLayout = QtWidgets.QHBoxLayout()
+        folderLayout.addWidget(self.backupFolderEdit)
+        folderLayout.addWidget(backupFolderButton)
+        formLayout.addRow("Backup Folder:", folderLayout)
+        
+        return tab
+
+    def createMiscTab(self):
+        """Creates the 'Misc' settings tab."""
+        tab = QtWidgets.QWidget()
+        formLayout = QtWidgets.QFormLayout(tab)
+        
+        self.defaultOpenFolderEdit = QtWidgets.QLineEdit()
+        self.defaultOpenFolderEdit.setText(self.settings.get_option("default_open_folder", os.path.expanduser("~")))
+        defaultFolderButton = QtWidgets.QPushButton("Browse")
+        defaultFolderButton.clicked.connect(self.browseDefaultFolder)
+        folderLayout = QtWidgets.QHBoxLayout()
+        folderLayout.addWidget(self.defaultOpenFolderEdit)
+        folderLayout.addWidget(defaultFolderButton)
+        formLayout.addRow("Default Open Folder:", folderLayout)
+        
+        self.languageCombo = QtWidgets.QComboBox()
+        languages = ["English", "Spanish", "French", "German", "Chinese"]
+        self.languageCombo.addItems(languages)
+        formLayout.addRow("Language:", self.languageCombo)
+        
+        self.fontSizeSpin = QtWidgets.QSpinBox()
+        self.fontSizeSpin.setRange(8, 32)
+        formLayout.addRow("Font Size:", self.fontSizeSpin)
+        
+        return tab
+
+    def browseBackupFolder(self):
+        folder = QtWidgets.QFileDialog.getExistingDirectory(self, "Select Backup Folder", self.backupFolderEdit.text())
+        if folder:
+            self.backupFolderEdit.setText(folder)
+
+    def browseDefaultFolder(self):
+        folder = QtWidgets.QFileDialog.getExistingDirectory(self, "Select Default Open Folder", self.defaultOpenFolderEdit.text())
+        if folder:
+            self.defaultOpenFolderEdit.setText(folder)
+
     def loadSettingsIntoUI(self):
-        """Load settings from the Settings object into the dialog's UI controls."""
         # General tab
         self.autoSaveCheckbox.setChecked(self.settings.get_option("auto_save", True))
         self.showNotificationsCheckbox.setChecked(self.settings.get_option("show_notifications", True))
@@ -181,19 +263,45 @@ class SettingsDialog(QtWidgets.QDialog):
         if index >= 0:
             self.logLevelCombo.setCurrentIndex(index)
         self.enableDebugCheckbox.setChecked(self.settings.get_option("debug_mode", False))
+        
+        # Backup tab
+        self.autoBackupCheckbox.setChecked(self.settings.get_option("auto_backup", False))
+        self.backupOnLoadCheckbox.setChecked(self.settings.get_option("backup_on_load", False))
+        self.backupFrequencySpin.setValue(self.settings.get_option("backup_frequency", 10))
+        self.appendTimestampCheckbox.setChecked(self.settings.get_option("append_timestamp", True))
+        self.maxBackupFilesSpin.setValue(self.settings.get_option("max_backup_files", 5))
+        self.backupFolderEdit.setText(self.settings.get_option("backup_folder", os.path.join(self.settings.get_option("default_open_folder", os.path.expanduser("~")), "BackupSave")))
+        
+        # Misc tab
+        self.defaultOpenFolderEdit.setText(self.settings.get_option("default_open_folder", os.path.expanduser("~")))
+        current_language = self.settings.get_option("language", "English")
+        index = self.languageCombo.findText(current_language)
+        if index >= 0:
+            self.languageCombo.setCurrentIndex(index)
+        self.fontSizeSpin.setValue(self.settings.get_option("font_size", 12))
 
     def applySettings(self):
-        """Apply the changes made in the dialog back to the Settings object."""
+        # General tab
         self.settings.set_option("auto_save", self.autoSaveCheckbox.isChecked())
         self.settings.set_option("show_notifications", self.showNotificationsCheckbox.isChecked())
         self.settings.set_option("theme", self.themeCombo.currentText())
+        # Advanced tab
         self.settings.set_option("log_level", self.logLevelCombo.currentText())
         self.settings.set_option("debug_mode", self.enableDebugCheckbox.isChecked())
-        # Note: 'last_opened_file' and 'recent_files' are read-only here.
+        # Backup tab
+        self.settings.set_option("auto_backup", self.autoBackupCheckbox.isChecked())
+        self.settings.set_option("backup_on_load", self.backupOnLoadCheckbox.isChecked())
+        self.settings.set_option("backup_frequency", self.backupFrequencySpin.value())
+        self.settings.set_option("append_timestamp", self.appendTimestampCheckbox.isChecked())
+        self.settings.set_option("max_backup_files", self.maxBackupFilesSpin.value())
+        self.settings.set_option("backup_folder", self.backupFolderEdit.text())
+        # Misc tab
+        self.settings.set_option("default_open_folder", self.defaultOpenFolderEdit.text())
+        self.settings.set_option("language", self.languageCombo.currentText())
+        self.settings.set_option("font_size", self.fontSizeSpin.value())
         self.accept()
 
     def resetDefaults(self):
-        """Reset all settings to default values and update the UI."""
         reply = QtWidgets.QMessageBox.question(
             self, "Reset Settings",
             "Are you sure you want to reset settings to defaults?",
@@ -209,9 +317,7 @@ if __name__ == "__main__":
     from qt_material import apply_stylesheet
 
     app = QtWidgets.QApplication(sys.argv)
-    # Apply a qt-material theme – make sure the theme file is available.
     apply_stylesheet(app, theme='dark_teal.xml')
-
     settings = Settings()
     dlg = SettingsDialog(settings)
     if dlg.exec_() == QtWidgets.QDialog.Accepted:
