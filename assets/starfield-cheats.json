@@ -1,0 +1,5848 @@
+[
+  {
+    "item_id": "0000000F",
+    "item_name": "Credits",
+    "command_example": "player.additem 0000000F 100"
+  },
+  {
+    "item_id": "0000000A",
+    "item_name": "Digipicks",
+    "command_example": "player.additem 0000000A 100"
+  },
+  {
+    "item_id": "0014920B",
+    "item_name": "Despondent Assassin - Legendary Rifle",
+    "command_example": "player.placeatme 0014920B 1"
+  },
+  {
+    "item_id": "00329ABB",
+    "item_name": "Eternity's Gate - Legendary Particle Beam Rifle",
+    "command_example": "player.placeatme 00329ABB 1"
+  },
+  {
+    "item_id": "0008AF62",
+    "item_name": "Revenant - Legendary Rifle",
+    "command_example": "player.placeatme 0008AF62 1"
+  },
+  {
+    "item_id": "000547A3",
+    "item_name": "Breach",
+    "command_example": "player.placeatme 000547A3 1"
+  },
+  {
+    "item_id": "0026D963",
+    "item_name": "Big Bang",
+    "command_example": "player.placeatme 0026D963 1"
+  },
+  {
+    "item_id": "0002EB42",
+    "item_name": "Magshot",
+    "command_example": "player.placeatme 0002EB42 1"
+  },
+  {
+    "item_id": "00023606",
+    "item_name": "Magpulse",
+    "command_example": "player.placeatme 00023606 1"
+  },
+  {
+    "item_id": "0026D96D",
+    "item_name": "Urban Eagle",
+    "command_example": "player.placeatme 0026D96D 1"
+  },
+  {
+    "item_id": "00065925",
+    "item_name": "Incendiary Experimental Nishina Spacesuit (Legendary)",
+    "command_example": "player.placeatme 00065925 1"
+  },
+  {
+    "item_id": "0007B2B9",
+    "item_name": "Sentinel's UC Antixeno Spacesuit (Legendary)",
+    "command_example": "player.placeatme 0007B2B9 1"
+  },
+  {
+    "item_id": "0022B8F6",
+    "item_name": "Repulsing Explorer Spacesuit (Epic)",
+    "command_example": "player.placeatme 0022B8F6 1"
+  },
+  {
+    "item_id": "0013F97D",
+    "item_name": "Peacemaker Spacesuit",
+    "command_example": "player.placeatme 0013F97D 1"
+  },
+  {
+    "item_id": "00225FC9",
+    "item_name": "Monster Costume",
+    "command_example": "player.placeatme 00225FC9 1"
+  },
+  {
+    "item_id": "001F22BB",
+    "item_name": "Gran-Gran's Spacesuit",
+    "command_example": "player.placeatme 001F22BB 1"
+  },
+  {
+    "item_id": "0010A25D",
+    "item_name": "Armor-Plated UC AntiXeno Pack (Legendary)",
+    "command_example": "player.placeatme 0010A25D 1"
+  },
+  {
+    "item_id": "0001754E",
+    "item_name": "Mark 1 Pack",
+    "command_example": "player.placeatme 0001754E 1"
+  },
+  {
+    "item_id": "0021A86C",
+    "item_name": "UC Shock Power Pack",
+    "command_example": "player.placeatme 0021A86C 1"
+  },
+  {
+    "item_id": "00065926",
+    "item_name": "Reactive Experimental Nishina Helmet (Legendary)",
+    "command_example": "player.placeatme 00065926 1"
+  },
+  {
+    "item_id": "0010A25E",
+    "item_name": "Incendiary UC AntiXeno Space Helmet (Legendary)",
+    "command_example": "player.placeatme 0010A25E 1"
+  },
+  {
+    "item_id": "0013F97B",
+    "item_name": "Peacemaker Space Helmet",
+    "command_example": "player.placeatme 0013F97B 1"
+  },
+  {
+    "item_id": "0001754F",
+    "item_name": "Mark I Space Helmet",
+    "command_example": "player.placeatme 0001754F 1"
+  },
+  {
+    "item_id": "001F22BC",
+    "item_name": "Gran-Gran's Space Helmet",
+    "command_example": "player.placeatme 001F22BC 1"
+  },
+  {
+    "item_id": "00003A26",
+    "item_name": "Potatoes",
+    "command_example": "player.additem 00003A26 1"
+  },
+  {
+    "item_id": "0000ABF9",
+    "item_name": "Med Pack",
+    "command_example": "player.additem 0000ABF9 1"
+  },
+  {
+    "item_id": "002A9DE8",
+    "item_name": "Emergency Kit",
+    "command_example": "player.additem 002A9DE8 1"
+  },
+  {
+    "item_id": "0003D3A9",
+    "item_name": "Antibiotic Cocktail",
+    "command_example": "player.additem 0003D3A9 1"
+  },
+  {
+    "item_id": "0003D3AF",
+    "item_name": "Antibiotic Injector",
+    "command_example": "player.additem 0003D3AF 1"
+  },
+  {
+    "item_id": "0003D3AE",
+    "item_name": "Antibiotic Paste",
+    "command_example": "player.additem 0003D3AE 1"
+  },
+  {
+    "item_id": "00299592",
+    "item_name": "AMP",
+    "command_example": "player.additem 00299592 1"
+  },
+  {
+    "item_id": "00246B6A",
+    "item_name": "Adaptive Frame",
+    "command_example": "player.additem 00246B6A 1"
+  },
+  {
+    "item_id": "000055B1",
+    "item_name": "Adhesive",
+    "command_example": "player.additem 000055B1 1"
+  },
+  {
+    "item_id": "000055A8",
+    "item_name": "Cosmetic",
+    "command_example": "player.additem 000055A8 1"
+  },
+  {
+    "item_id": "000055AF",
+    "item_name": "Fiber",
+    "command_example": "player.additem 000055AF 1"
+  },
+  {
+    "item_id": "000055BA",
+    "item_name": "Lubricant",
+    "command_example": "player.additem 000055BA 1"
+  },
+  {
+    "item_id": "000777FD",
+    "item_name": "Nutrient",
+    "command_example": "player.additem 000777FD 1"
+  },
+  {
+    "item_id": "000055A7",
+    "item_name": "Ornamental Material",
+    "command_example": "player.additem 000055A7 1"
+  },
+  {
+    "item_id": "000055A6",
+    "item_name": "Polymer",
+    "command_example": "player.additem 000055A6 1"
+  },
+  {
+    "item_id": "000055CC",
+    "item_name": "Sealant",
+    "command_example": "player.additem 000055CC 1"
+  },
+  {
+    "item_id": "000055CE",
+    "item_name": "Solvent",
+    "command_example": "player.additem 000055CE 1"
+  },
+  {
+    "item_id": "000055B9",
+    "item_name": "Structural Material",
+    "command_example": "player.additem 000055B9 1"
+  },
+  {
+    "console_command": "All Ship Related IDs",
+    "description": "All Faction Related IDs"
+  },
+  {
+    "console_command": "All Ship IDs",
+    "description": "All Faction IDs"
+  },
+  {
+    "console_command": "ID Code",
+    "description": "Skill Name"
+  },
+  {
+    "console_command": "002BF65B",
+    "description": "AA-99"
+  },
+  {
+    "console_command": "0026D965",
+    "description": "Arc Welder"
+  },
+  {
+    "console_command": "0026D964",
+    "description": "AutoRivet"
+  },
+  {
+    "console_command": "0004716C",
+    "description": "Beowulf"
+  },
+  {
+    "console_command": "0026D963",
+    "description": "Big Bang"
+  },
+  {
+    "console_command": "000547A3",
+    "description": "Breach"
+  },
+  {
+    "console_command": "0026D96A",
+    "description": "Bridger"
+  },
+  {
+    "console_command": "0026D96B",
+    "description": "Coachman"
+  },
+  {
+    "console_command": "00016758",
+    "description": "Cutter"
+  },
+  {
+    "console_command": "0018DE2C",
+    "description": "Drum Beat"
+  },
+  {
+    "console_command": "002F413A",
+    "description": "Discarded Sidestar"
+  },
+  {
+    "console_command": "0026D96E",
+    "description": "Ecliptic Pistol"
+  },
+  {
+    "console_command": "000476C4",
+    "description": "Eon"
+  },
+  {
+    "console_command": "0001BC4F",
+    "description": "Equinox"
+  },
+  {
+    "console_command": "00028A02",
+    "description": "Grendel"
+  },
+  {
+    "console_command": "00546CC",
+    "description": "Hard Target"
+  },
+  {
+    "console_command": "00253A16",
+    "description": "Kodama"
+  },
+  {
+    "console_command": "0021FEB4",
+    "description": "Kraken"
+  },
+  {
+    "console_command": "0002D7F4",
+    "description": "Lawgiver"
+  },
+  {
+    "console_command": "002984DF",
+    "description": "Maelstrom"
+  },
+  {
+    "console_command": "0002EB3C",
+    "description": "Mag Shear"
+  },
+  {
+    "console_command": "00023606",
+    "description": "MagPulse"
+  },
+  {
+    "console_command": "0002EB42",
+    "description": "MagShot"
+  },
+  {
+    "console_command": "0002EB45",
+    "description": "MagSniper"
+  },
+  {
+    "console_command": "0026035E",
+    "description": "MagStorm"
+  },
+  {
+    "console_command": "000546CD",
+    "description": "Microgun"
+  },
+  {
+    "console_command": "0026D968",
+    "description": "Novablast Disputor"
+  },
+  {
+    "console_command": "0026D967",
+    "description": "Novalight"
+  },
+  {
+    "console_command": "0026ED2A",
+    "description": "Old Earth Assult Rifle"
+  },
+  {
+    "console_command": "0021BBCD",
+    "description": "Old Earth Hunting Rifle"
+  },
+  {
+    "console_command": "00278F74",
+    "description": "Old Earth Shotgun"
+  },
+  {
+    "console_command": "002773C8",
+    "description": "Orion"
+  },
+  {
+    "console_command": "0026D966",
+    "description": "Osmium Dagger"
+  },
+  {
+    "console_command": "002953F8",
+    "description": "Pacifier"
+  },
+  {
+    "console_command": "00/040826",
+    "description": "Rattler"
+  },
+  {
+    "console_command": "00000FD6",
+    "description": "Razorback"
+  },
+  {
+    "console_command": "0002CB5F",
+    "description": "Regulator"
+  },
+  {
+    "console_command": "0004F760",
+    "description": "Rescue Axe"
+  },
+  {
+    "console_command": "0026D960",
+    "description": "Shotty"
+  },
+  {
+    "console_command": "0026D95D",
+    "description": "Sidestar"
+  },
+  {
+    "console_command": "0026D961",
+    "description": "Solstice"
+  },
+  {
+    "console_command": "0002EB36",
+    "description": "Tombstone"
+  },
+  {
+    "console_command": "0026D96D",
+    "description": "Urban Eagle"
+  },
+  {
+    "console_command": "0026D8A0",
+    "description": "VaRuun Inflictor"
+  },
+  {
+    "console_command": "0026D8A2",
+    "description": "VaRuun Painblade"
+  },
+  {
+    "console_command": "0026D8A4",
+    "description": "VaRuun Starshard"
+  },
+  {
+    "console_command": "0026F181",
+    "description": "Barrow Knife"
+  },
+  {
+    "console_command": "00035A48",
+    "description": "Combat Knife"
+  },
+  {
+    "console_command": "0026D8A3",
+    "description": "Tanto"
+  },
+  {
+    "console_command": "0026D8A5",
+    "description": "UC Naval Cutlass"
+  },
+  {
+    "console_command": "0026D8A1",
+    "description": "Wakiazashi"
+  },
+  {
+    "item_id": "OMOD Code",
+    "item_name": "Mod Name",
+    "command_example": "Description"
+  },
+  {
+    "item_id": "000FF442",
+    "item_name": "Anti-Personnel",
+    "command_example": "10% damage against humans."
+  },
+  {
+    "item_id": "000FEA07",
+    "item_name": "Bashing",
+    "command_example": "Deals double damage when gun bashing."
+  },
+  {
+    "item_id": "000F437E",
+    "item_name": "Berserker",
+    "command_example": "Does more damage the less armor one has."
+  },
+  {
+    "item_id": "000F428E",
+    "item_name": "Cornered",
+    "command_example": "Damage increases as health decreases."
+  },
+  {
+    "item_id": "001625EB",
+    "item_name": "Disassembler",
+    "command_example": "+20% damage against robots."
+  },
+  {
+    "item_id": "000FFA3B",
+    "item_name": "Extended Magazine",
+    "command_example": "Doubles the base magazine capacity."
+  },
+  {
+    "item_id": "0015DD18",
+    "item_name": "Exterminator",
+    "command_example": "+30% damage against ailens."
+  },
+  {
+    "item_id": "000EA117",
+    "item_name": "Furious",
+    "command_example": "Each consecutive hit deals more damage."
+  },
+  {
+    "item_id": "000F2013",
+    "item_name": "Instigating",
+    "command_example": "Deals double damage to targets with full health."
+  },
+  {
+    "item_id": "000F7321",
+    "item_name": "Space-Adept",
+    "command_example": "+30% damage while in space, and -15% damage while on a planet."
+  },
+  {
+    "item_id": "0008AB47",
+    "item_name": "Corrosive",
+    "command_example": "Randomly deals corrosive damage and reduces the targets' armor over 6 seconds."
+  },
+  {
+    "item_id": "000F2E39",
+    "item_name": "Crippling",
+    "command_example": "Deals +30% damage on the next attack after hitting a target's limbs."
+  },
+  {
+    "item_id": "000EA0BA",
+    "item_name": "Handloading",
+    "command_example": "Volatile rounds that are designed to pack a bigger punch, but aren't as stable and can fail on occasion."
+  },
+  {
+    "item_id": "00122F1C",
+    "item_name": "Hitman",
+    "command_example": "+15% damage while aiming."
+  },
+  {
+    "item_id": "0007D728",
+    "item_name": "Incendiary",
+    "command_example": "Randomly deals incendiary damage."
+  },
+  {
+    "item_id": "000FEA49",
+    "item_name": "Lacerate",
+    "command_example": "Randomly applies a bleed effect to the target."
+  },
+  {
+    "item_id": "000FFA3C",
+    "item_name": "Med Theft",
+    "command_example": "Chance that humans drop extra Med Packs on death."
+  },
+  {
+    "item_id": "00319AEC",
+    "item_name": "Poison",
+    "command_example": "Randomly deals poison damage and slows the target."
+  },
+  {
+    "item_id": "000FEA04",
+    "item_name": "Rapid",
+    "command_example": "+25% increase in attack speed."
+  },
+  {
+    "item_id": "000E8D64",
+    "item_name": "Staggering",
+    "command_example": "Small chance to stagger enemies."
+  },
+  {
+    "item_id": "000FBD3C",
+    "item_name": "Concussive",
+    "command_example": "Small chance to knock down targets."
+  },
+  {
+    "item_id": "000FC884",
+    "item_name": "Demoralizing",
+    "command_example": "Small chance to demoralize a target."
+  },
+  {
+    "item_id": "000FA8D6",
+    "item_name": "Explosive",
+    "command_example": "Randomly switches to explosive rounds."
+  },
+  {
+    "item_id": "000FC8A4",
+    "item_name": "Frenzy",
+    "command_example": "Small chance to frenzy a target."
+  },
+  {
+    "item_id": "000F4CF0",
+    "item_name": "One Inch Punch",
+    "command_example": "Rounds fire in a shotgun-like spread."
+  },
+  {
+    "item_id": "000F4557",
+    "item_name": "Shattering",
+    "command_example": "Break through even the strongest armor."
+  },
+  {
+    "item_id": "0031C0C4",
+    "item_name": "Skip Shot",
+    "command_example": "Every fourth shot fires two projectiles at once."
+  },
+  {
+    "item_id": "0031C0C6",
+    "item_name": "Telsa",
+    "command_example": "Rounds will sometimes emit electricity where they land that damages and slows nearby targets."
+  },
+  {
+    "item_id": "000FFA3D",
+    "item_name": "Titanium Build",
+    "command_example": "Premium build materials make this weapon light as a feather"
+  },
+  {
+    "console_command": "ID Code",
+    "description": "Ammo Name"
+  },
+  {
+    "console_command": "002B559C",
+    "description": ".27 Caliber"
+  },
+  {
+    "console_command": "002B559A",
+    "description": ".43 MI Array"
+  },
+  {
+    "console_command": "02B5599",
+    "description": ".43 Ultramag"
+  },
+  {
+    "console_command": "002B5598",
+    "description": ".45 Caliber ACP"
+  },
+  {
+    "console_command": "002B5597",
+    "description": ".50 Caliber Caseless"
+  },
+  {
+    "console_command": "002B5596",
+    "description": ".50 MI Array"
+  },
+  {
+    "console_command": "002BAE3F",
+    "description": "1.5KV LZR Cartridges"
+  },
+  {
+    "console_command": "002B5595",
+    "description": "11MM Caseless"
+  },
+  {
+    "console_command": "002B5594",
+    "description": "12.5MM ST Rivet"
+  },
+  {
+    "console_command": "000547A1",
+    "description": "12G Shotgun Shell"
+  },
+  {
+    "console_command": "002B4AFC",
+    "description": "15X25 CLL Shotgun Shell"
+  },
+  {
+    "console_command": "0000E8EC",
+    "description": "3KV LZR Cartridge"
+  },
+  {
+    "console_command": "002B5592",
+    "description": "40MM XPL"
+  },
+  {
+    "console_command": "002B5590",
+    "description": "6.5MM CT"
+  },
+  {
+    "console_command": "002B558F",
+    "description": "6.5MM MI Array"
+  },
+  {
+    "console_command": "002B558E",
+    "description": "7.5MM Whitehot"
+  },
+  {
+    "console_command": "002B558D",
+    "description": "7.62x39MM"
+  },
+  {
+    "console_command": "0004AD3E",
+    "description": "7.77MM Caseless"
+  },
+  {
+    "console_command": "002B559B",
+    "description": "9x39MM"
+  },
+  {
+    "console_command": "002B4AFB",
+    "description": "Caseless Shotgun Shell"
+  },
+  {
+    "console_command": "002B558B",
+    "description": "Heavy Particle Fuse"
+  },
+  {
+    "console_command": "002B558A",
+    "description": "Light Particle Fuse"
+  },
+  {
+    "console_command": "ID Code",
+    "description": "Armor Name"
+  },
+  {
+    "console_command": "00065925",
+    "description": "Incendiary Experimental Nishina Spacesuit"
+  },
+  {
+    "console_command": "0007B2B9",
+    "description": "Sentinel's UC Antixeno Spacesuit"
+  },
+  {
+    "console_command": "0022B8F6",
+    "description": "Repulsing Explorer Spacesuit"
+  },
+  {
+    "console_command": "0013F97D",
+    "description": "Peacemaker Spacesuit"
+  },
+  {
+    "console_command": "00228570",
+    "description": "Bounty Hunter Spacesuit"
+  },
+  {
+    "console_command": "001E2B18",
+    "description": "Constellation Spacesuit"
+  },
+  {
+    "console_command": "000/5278E",
+    "description": "Deep Mining Spacesuit"
+  },
+  {
+    "console_command": "002265AE",
+    "description": "Deep Recon Spacesuit"
+  },
+  {
+    "console_command": "0006AC00",
+    "description": "Deepcore Spacesuit"
+  },
+  {
+    "console_command": "0016D2C4",
+    "description": "Deepseeker Spacesuit"
+  },
+  {
+    "console_command": "00026BF1",
+    "description": "Deimos Spacesuit"
+  },
+  {
+    "console_command": "0022856F",
+    "description": "Ecliptic Spacesuit"
+  },
+  {
+    "console_command": "002265AF",
+    "description": "Explorer Spacesuit"
+  },
+  {
+    "console_command": "001F22BB",
+    "description": "Gran-Gran's Spacesuit"
+  },
+  {
+    "console_command": "002392B5",
+    "description": "Ground Crew Spacesuit"
+  },
+  {
+    "console_command": "00226299",
+    "description": "Mantis Spacesuit"
+  },
+  {
+    "console_command": "0001754D",
+    "description": "Mark I Spacesuit"
+  },
+  {
+    "console_command": "001D0F96",
+    "description": "Mercury Spacesuit"
+  },
+  {
+    "console_command": "00225FC9",
+    "description": "Monster Costume"
+  },
+  {
+    "console_command": "00067C94",
+    "description": "Navigator Spacesuit"
+  },
+  {
+    "console_command": "0003084E",
+    "description": "Old Earth Spacesuit"
+  },
+  {
+    "console_command": "00066821",
+    "description": "Pirate Assault Spacesuit"
+  },
+  {
+    "console_command": "00066826",
+    "description": "Pirate Charger Spacesuit"
+  },
+  {
+    "console_command": "00066828",
+    "description": "Pirate Corsair Spacesuit"
+  },
+  {
+    "console_command": "0006682A",
+    "description": "Pirate Sniper Spacesuit"
+  },
+  {
+    "console_command": "00227CA0",
+    "description": "Ranger Spacesuit"
+  },
+  {
+    "console_command": "002265AD",
+    "description": "Shocktroop Spacesuit"
+  },
+  {
+    "console_command": "0021C780",
+    "description": "Space Trucker Spacesuit"
+  },
+  {
+    "console_command": "00004E78",
+    "description": "Star Roamer Spacesuit"
+  },
+  {
+    "console_command": "0012E187",
+    "description": "Starborn Spacesuit Astra"
+  },
+  {
+    "console_command": "001CBA52",
+    "description": "Starborn Spacesuit Avitus"
+  },
+  {
+    "console_command": "001CBA4E",
+    "description": "Starborn Spacesuit Bellum"
+  },
+  {
+    "console_command": "0021C77E",
+    "description": "Starborn Spacesuit Gravitas"
+  },
+  {
+    "console_command": "001CBA4A",
+    "description": "Starborn Spacesuit Locus"
+  },
+  {
+    "console_command": "001CBA49",
+    "description": "Starborn Spacesuit Materia"
+  },
+  {
+    "console_command": "002D7365",
+    "description": "Starborn Spacesuit Solis"
+  },
+  {
+    "console_command": "002D7346",
+    "description": "Starborn Spacesuit Tempus"
+  },
+  {
+    "console_command": "001CBA4D",
+    "description": "Starborn Spacesuit Tenebris"
+  },
+  {
+    "console_command": "0021C77F",
+    "description": "Starborn Spacesuit Venator"
+  },
+  {
+    "console_command": "002AAF44",
+    "description": "SysDef Ace Spacesuit"
+  },
+  {
+    "console_command": "00398104",
+    "description": "SysDef Assault Spacesuit"
+  },
+  {
+    "console_command": "0039810A",
+    "description": "SysDef Combat Spacesuit"
+  },
+  {
+    "console_command": "00398108",
+    "description": "SysDef Sec Recon Spacesuit"
+  },
+  {
+    "console_command": "00398103",
+    "description": "SysDef Spacesuit"
+  },
+  {
+    "console_command": "00166404",
+    "description": "Trackers Alliance Spacesuit"
+  },
+  {
+    "console_command": "00166410",
+    "description": "UC Ace Spacesuit"
+  },
+  {
+    "console_command": "00206130",
+    "description": "UC AntiXeno Spacesuit"
+  },
+  {
+    "console_command": "00257808",
+    "description": "UC Combat Spacesuit"
+  },
+  {
+    "console_command": "00257805",
+    "description": "UC Marine Spacesuit"
+  },
+  {
+    "console_command": "000EF9B0",
+    "description": "UC Sec Combat Spacesuit"
+  },
+  {
+    "console_command": "000EF9AF",
+    "description": "UC Sec Recon Spacesuit"
+  },
+  {
+    "console_command": "000EF9AE",
+    "description": "UC Sec Starlaw Spacesuit"
+  },
+  {
+    "console_command": "000EF9AD",
+    "description": "UC Security Spacesuit"
+  },
+  {
+    "console_command": "00257809",
+    "description": "UC Startroop Spacesuit"
+  },
+  {
+    "console_command": "0021A86A",
+    "description": "UC Urbanwar Spacesuit"
+  },
+  {
+    "console_command": "00248C0F",
+    "description": "UC Vanguard Spacesuit"
+  },
+  {
+    "console_command": "0025780A",
+    "description": "UC Wardog Spacesuit"
+  },
+  {
+    "console_command": "00227CA3",
+    "description": "Va'Ruun Spacesuit"
+  },
+  {
+    "console_command": "ID Code",
+    "description": "Helmet Name"
+  },
+  {
+    "console_command": "00065926",
+    "description": "Reactive Experimental Nishina Helmet (Legendary)"
+  },
+  {
+    "console_command": "0010A25E",
+    "description": "Incendiary UC AntiXeno Space Helmet"
+  },
+  {
+    "console_command": "001466F6",
+    "description": "Black Graviplas Helmet"
+  },
+  {
+    "console_command": "001466FA",
+    "description": "Black Open Graviplas Helmet"
+  },
+  {
+    "console_command": "001C0F32",
+    "description": "Bounty Hunter Space Helmet"
+  },
+  {
+    "console_command": "002EDE9C",
+    "description": "Broken Constellation Space Helmet"
+  },
+  {
+    "console_command": "001466F7",
+    "description": "Brown Graviplas Helmet"
+  },
+  {
+    "console_command": "001E2B17",
+    "description": "Constellation Space Helmet"
+  },
+  {
+    "console_command": "0003B424",
+    "description": "Cydonia Space Helmet"
+  },
+  {
+    "console_command": "00052792",
+    "description": "Deep Mining Space Helmet"
+  },
+  {
+    "console_command": "00169F54",
+    "description": "Deep Recon Space Helmet"
+  },
+  {
+    "console_command": "0006ABFF",
+    "description": "Deepcore Space Helmet"
+  },
+  {
+    "console_command": "0016D15C",
+    "description": "Deeseeker Space Helmet"
+  },
+  {
+    "console_command": "00026BF0",
+    "description": "Deimos Space Helmet"
+  },
+  {
+    "console_command": "00228829",
+    "description": "Ecliptic Space Helmet"
+  },
+  {
+    "console_command": "00169F50",
+    "description": "Explorer Space Helmet"
+  },
+  {
+    "console_command": "0021F3F4",
+    "description": "First Solider Helmet"
+  },
+  {
+    "console_command": "003CD812",
+    "description": "Generdyne Guard Helmet"
+  },
+  {
+    "console_command": "001F22BC",
+    "description": "Gran-Gran's Space Helmet"
+  },
+  {
+    "console_command": "000781F7",
+    "description": "Graviplas Merc Helmet"
+  },
+  {
+    "console_command": "001466F8",
+    "description": "Gray  Graviplas Helmet"
+  },
+  {
+    "console_command": "001466FC",
+    "description": "Gray Open Graviplas Helmet"
+  },
+  {
+    "console_command": "002392B4",
+    "description": "Ground Crew Space Helmet"
+  },
+  {
+    "console_command": "0016640A",
+    "description": "Mantis Space Helmet"
+  },
+  {
+    "console_command": "0001754F",
+    "description": "Mark I Space Helmet"
+  },
+  {
+    "console_command": "0016E0B5",
+    "description": "Mercenary Space Helmet"
+  },
+  {
+    "console_command": "001D0F94",
+    "description": "Mercury Space Helmet"
+  },
+  {
+    "console_command": "00067C93",
+    "description": "Navigator Space Helmet"
+  },
+  {
+    "console_command": "001F73EF",
+    "description": "Neon Security Helmet"
+  },
+  {
+    "console_command": "0003084D",
+    "description": "Old Earth Space Helmet"
+  },
+  {
+    "console_command": "000781F8",
+    "description": "Open Graviplas Helmet"
+  },
+  {
+    "console_command": "0016E0C3",
+    "description": "Operative Helmet"
+  },
+  {
+    "console_command": "0013F97B",
+    "description": "Peacemaker Helmet"
+  },
+  {
+    "console_command": "00066822",
+    "description": "Pirate Assault Space Helmet"
+  },
+  {
+    "console_command": "00066827",
+    "description": "Pirate Charge Space Helmet"
+  },
+  {
+    "console_command": "00066829",
+    "description": "Pirate Corsair Space Helmet"
+  },
+  {
+    "console_command": "0006682B",
+    "description": "Pirate Sniper Space Helmet"
+  },
+  {
+    "console_command": "001E2AC1",
+    "description": "Ranger Space Helmet"
+  },
+  {
+    "console_command": "0037A34F",
+    "description": "Ryujin Guard Helmet"
+  },
+  {
+    "console_command": "00165718",
+    "description": "Security Guard Helmet"
+  },
+  {
+    "console_command": "00169F58",
+    "description": "Shocktrooper Space Helmet"
+  },
+  {
+    "console_command": "0016E0BD",
+    "description": "Space Trucker Space Helmet"
+  },
+  {
+    "console_command": "00003E8F",
+    "description": "Star Roamer Space Helmet"
+  },
+  {
+    "console_command": "002F4B39",
+    "description": "SY-920 Space Helmet"
+  },
+  {
+    "console_command": "00398107",
+    "description": "SysDef Armored Space Helmet"
+  },
+  {
+    "console_command": "00398106",
+    "description": "SysDef Space Helmet"
+  },
+  {
+    "console_command": "002AAF45",
+    "description": "System Def Ace Space Helmet"
+  },
+  {
+    "console_command": "001466F9",
+    "description": "Teal Graviplas Helmet"
+  },
+  {
+    "console_command": "001466FD",
+    "description": "Teal Open Graviplas Helmet"
+  },
+  {
+    "console_command": "00166403",
+    "description": "Trackers Alliance Space Helmet"
+  },
+  {
+    "console_command": "0014E44E",
+    "description": "Trident Guard Helmet"
+  },
+  {
+    "console_command": "0016640F",
+    "description": "UC Ace Pilot Space Helmet"
+  },
+  {
+    "console_command": "0025780B",
+    "description": "UC Armored Space Helmet"
+  },
+  {
+    "console_command": "00257806",
+    "description": "UC Marine Space Helmet"
+  },
+  {
+    "console_command": "000EF9B2",
+    "description": "UC Sec Spaceriot Helmet"
+  },
+  {
+    "console_command": "0025E8D5",
+    "description": "UC Security Helmet"
+  },
+  {
+    "console_command": "000EF9B1",
+    "description": "UC Security Space Helmet"
+  },
+  {
+    "console_command": "0021A86B",
+    "description": "UC Urbanwar Space Helmet"
+  },
+  {
+    "console_command": "00248C0E",
+    "description": "UC Vanguard Space Helmet"
+  },
+  {
+    "console_command": "0016D3D1",
+    "description": "Va'ruun Space Helmet"
+  },
+  {
+    "console_command": "ID Code",
+    "description": "Boost Pack Name"
+  },
+  {
+    "console_command": "0010A25D",
+    "description": "Armor-Plated UC AntiXeno Pack (Legendary)"
+  },
+  {
+    "console_command": "001C0F34",
+    "description": "Bounty Hunter Seek Pack"
+  },
+  {
+    "console_command": "001C0F35",
+    "description": "Bounty Hunter Stalk Pack"
+  },
+  {
+    "console_command": "001C0F33",
+    "description": "Bounty Hunter Track Pack"
+  },
+  {
+    "console_command": "001E2B19",
+    "description": "Constellation Pack"
+  },
+  {
+    "console_command": "0003B423",
+    "description": "Cydonia Pack"
+  },
+  {
+    "console_command": "002EDF1F",
+    "description": "Deep Mining Pack"
+  },
+  {
+    "console_command": "00169F55",
+    "description": "Deep Recon Pack"
+  },
+  {
+    "console_command": "000FD333",
+    "description": "Deepcore Pack"
+  },
+  {
+    "console_command": "0016D15B",
+    "description": "Deepseeker Pack"
+  },
+  {
+    "console_command": "00026BEF",
+    "description": "Deimos Pack"
+  },
+  {
+    "console_command": "00026BF2",
+    "description": "Deimos Tunnel Pack"
+  },
+  {
+    "console_command": "00166407",
+    "description": "Ecliptic Pack"
+  },
+  {
+    "console_command": "00169F51",
+    "description": "Explorer Pack"
+  },
+  {
+    "console_command": "002392B3",
+    "description": "Ground Crew Pack"
+  },
+  {
+    "console_command": "00003A77",
+    "description": "High School Backpack"
+  },
+  {
+    "console_command": "0016640B",
+    "description": "Mantis Pack"
+  },
+  {
+    "console_command": "0001754E",
+    "description": "Mark I Pack"
+  },
+  {
+    "console_command": "0016E0B6",
+    "description": "Mercenary Pack"
+  },
+  {
+    "console_command": "001D0F95",
+    "description": "Mercury Pack"
+  },
+  {
+    "console_command": "00067C95",
+    "description": "Navigator Pack"
+  },
+  {
+    "console_command": "0003084C",
+    "description": "Old Earth Pack"
+  },
+  {
+    "console_command": "0013F97C",
+    "description": "Peacemarker Pack"
+  },
+  {
+    "console_command": "00066824",
+    "description": "Pirate Raiding Pack"
+  },
+  {
+    "console_command": "00066825",
+    "description": "Pirate Survival Pack"
+  },
+  {
+    "console_command": "001E2AF7",
+    "description": "Ranger Pack"
+  },
+  {
+    "console_command": "00169F59",
+    "description": "Shocktrooper Pack"
+  },
+  {
+    "console_command": "0016E0BB",
+    "description": "Space Trucker Pack"
+  },
+  {
+    "console_command": "00003E90",
+    "description": "Star Roamer Pack"
+  },
+  {
+    "console_command": "001773BD",
+    "description": "SY-920  Pilot Pack"
+  },
+  {
+    "console_command": "00398105",
+    "description": "SysDef Pack"
+  },
+  {
+    "console_command": "00166402",
+    "description": "Tracker Alliance Pack"
+  },
+  {
+    "console_command": "00029C7A",
+    "description": "Tunnel Mining Pack"
+  },
+  {
+    "console_command": "0016640E",
+    "description": "UC Ace Pilot Pack"
+  },
+  {
+    "console_command": "00/257807",
+    "description": "UC Marine Pack"
+  },
+  {
+    "console_command": "000EF9AC",
+    "description": "UC Security Pack"
+  },
+  {
+    "console_command": "0021A86C",
+    "description": "UC Shock Armor Pack"
+  },
+  {
+    "console_command": "003E3D4F",
+    "description": "UC Vanguard Pilot Pack"
+  },
+  {
+    "console_command": "0016D3D0",
+    "description": "Va'ruun Pack"
+  },
+  {
+    "item_id": "ID Code",
+    "item_name": "Modifer Name",
+    "command_example": "Description"
+  },
+  {
+    "item_id": "0013369C",
+    "item_name": "Ablative",
+    "command_example": "-15% incoming Energy damage."
+  },
+  {
+    "item_id": "0013369E",
+    "item_name": "Anti-Ballistic",
+    "command_example": "-15% incoming Physical damage from ranged weapons."
+  },
+  {
+    "item_id": "001336BD",
+    "item_name": "Beast Hunter",
+    "command_example": "-15% damage from Alien enemies."
+  },
+  {
+    "item_id": "001336C6",
+    "item_name": "Bolstering",
+    "command_example": "Grants up to +100 Energy resistance and Physical resistance, the lower your health."
+  },
+  {
+    "item_id": "001336C1",
+    "item_name": "Chameleon",
+    "command_example": "Blend with the environment while sneaking and not moving."
+  },
+  {
+    "item_id": "001336BE",
+    "item_name": "Combat Veteran",
+    "command_example": "-15% damage from Human enemies."
+  },
+  {
+    "item_id": "000690B0",
+    "item_name": "O2 Boosted",
+    "command_example": "+20% oxygen capacity."
+  },
+  {
+    "item_id": "000690AE",
+    "item_name": "O2 Filter",
+    "command_example": "-25% oxygen consumption."
+  },
+  {
+    "item_id": "00133699",
+    "item_name": "Sturdy",
+    "command_example": "-15% incoming Melee damage."
+  },
+  {
+    "item_id": "001336BC",
+    "item_name": "Technician",
+    "command_example": "-15% damage from Robot enemies."
+  },
+  {
+    "item_id": "000710FD",
+    "item_name": "Acrobat",
+    "command_example": "-50% fall damage."
+  },
+  {
+    "item_id": "000690AF",
+    "item_name": "Analyzer",
+    "command_example": "+10% damage to scanned targets."
+  },
+  {
+    "item_id": "000710FA",
+    "item_name": "Antiseptic",
+    "command_example": "+25 Airborne Resistance."
+  },
+  {
+    "item_id": "000C9A43",
+    "item_name": "Auto Medic",
+    "command_example": "Automatically use a Med Pack when hit and health is below 25%, once every 60 seconds."
+  },
+  {
+    "item_id": "002EDE4E",
+    "item_name": "Fastened",
+    "command_example": "+20 carry capacity."
+  },
+  {
+    "item_id": "000710F7",
+    "item_name": "Galvanized",
+    "command_example": "+25 Corrosive Resistance."
+  },
+  {
+    "item_id": "002C43DA",
+    "item_name": "Hacker",
+    "command_example": "+2 max auto attempts that can be banked while hacking."
+  },
+  {
+    "item_id": "000710F5",
+    "item_name": "Leadlined",
+    "command_example": "+25 Radiation Resistance."
+  },
+  {
+    "item_id": "000710F6",
+    "item_name": "Liquid Cooled",
+    "command_example": "+25 Thermal Resistance."
+  },
+  {
+    "item_id": "00060293",
+    "item_name": "Resource Hauler",
+    "command_example": "Resources weigh 25% less."
+  },
+  {
+    "item_id": "00060295",
+    "item_name": "Weapon Holsters",
+    "command_example": "Weapons weigh 50% less."
+  },
+  {
+    "item_id": "002EDE59",
+    "item_name": "Armor-Plated",
+    "command_example": "-10% incoming Physical, Energy, an EM damage."
+  },
+  {
+    "item_id": "002EDE4F",
+    "item_name": "Assisted Carry",
+    "command_example": "Drain 75% less 02 when running while encumbered."
+  },
+  {
+    "item_id": "002C43DC",
+    "item_name": "Headhunter",
+    "command_example": "Deals +25% damage on the next attack after hitting a target's head."
+  },
+  {
+    "item_id": "00002983",
+    "item_name": "Incendiary",
+    "command_example": "10% chance to ignite nearby attackers."
+  },
+  {
+    "item_id": "000BE542",
+    "item_name": "Mechanized",
+    "command_example": "+40 carry capacity."
+  },
+  {
+    "item_id": "00059AE8",
+    "item_name": "Mirrored",
+    "command_example": "4% chance to reflect attacks."
+  },
+  {
+    "item_id": "002D01A2",
+    "item_name": "Peacemaker",
+    "command_example": "Rifles do 10% more damage."
+  },
+  {
+    "item_id": "0006029F",
+    "item_name": "Reactive",
+    "command_example": "10% chance to stagger nearby attackers."
+  },
+  {
+    "item_id": "0006029D",
+    "item_name": "Repulsing",
+    "command_example": "5% chance to disarm nearby attackers."
+  },
+  {
+    "item_id": "002C43DB",
+    "item_name": "Sensor Chip",
+    "command_example": "+20% accuracy while firing on the move."
+  },
+  {
+    "item_id": "000BE540",
+    "item_name": "Sentinel",
+    "command_example": "75% chance to reduce damage by 50% while standing still."
+  },
+  {
+    "console_command": "Item Code",
+    "description": "Apparel Name"
+  },
+  {
+    "console_command": "0012B4B3",
+    "description": "Akila Secruity Hat"
+  },
+  {
+    "console_command": "001E426E",
+    "description": "Amanirenas Hat"
+  },
+  {
+    "console_command": "003E3D51",
+    "description": "Ambassador Suit"
+  },
+  {
+    "console_command": "0021BBEC",
+    "description": "Argos Extractor Jumpsuit"
+  },
+  {
+    "console_command": "001C84DB",
+    "description": "Argos Jacketed Jumpsuit"
+  },
+  {
+    "console_command": "003FDBF7",
+    "description": "B.Morgan's Suit"
+  },
+  {
+    "console_command": "0019219C",
+    "description": "Batball Cap"
+  },
+  {
+    "console_command": "003E8E7F",
+    "description": "Bayu's Corpwear"
+  },
+  {
+    "console_command": "001466EE",
+    "description": "Black Elbow Grease Gear"
+  },
+  {
+    "console_command": "001466F2",
+    "description": "Black Engineering Outfit"
+  },
+  {
+    "console_command": "001466EA",
+    "description": "Black Leather Jumpsuit"
+  },
+  {
+    "console_command": "001466F6",
+    "description": "Black Graviplas Helmet"
+  },
+  {
+    "console_command": "001466FA",
+    "description": "Black Open Graviplas Helmet"
+  },
+  {
+    "console_command": "00246B32",
+    "description": "!Blue Collar Offwork Duds"
+  },
+  {
+    "console_command": "00246B30",
+    "description": "Blue Collar Offwork Hat"
+  },
+  {
+    "console_command": "00077814",
+    "description": "Blue Elbow Grease Gear"
+  },
+  {
+    "console_command": "003A264E",
+    "description": "Blue Lab Outfit"
+  },
+  {
+    "console_command": "0029E174",
+    "description": "Blue Labor Jumpsuit"
+  },
+  {
+    "console_command": "001B52FF",
+    "description": "Blue Neocity Formwear"
+  },
+  {
+    "console_command": "002619F1",
+    "description": "Blue Neocity Poncho"
+  },
+  {
+    "console_command": "00077810",
+    "description": "Blue UC Leather Jumpsuit"
+  },
+  {
+    "console_command": "001466EF",
+    "description": "Brown Elbow Grease Gear"
+  },
+  {
+    "console_command": "001466F3",
+    "description": "Brown Engineering Outfit"
+  },
+  {
+    "console_command": "00062EA3",
+    "description": "Brown Leather Jumpsuit"
+  },
+  {
+    "console_command": "001466EB",
+    "description": "Brown Leather Jumpsuit"
+  },
+  {
+    "console_command": "001B5300",
+    "description": "Brown Neocity Formwear"
+  },
+  {
+    "console_command": "002619F6",
+    "description": "Casual Street Suit"
+  },
+  {
+    "console_command": "00235B7D",
+    "description": "Clean Suit"
+  },
+  {
+    "console_command": "00185A6F",
+    "description": "Chunks Cap"
+  },
+  {
+    "console_command": "001A8DDD",
+    "description": "Chunks Service Uniform"
+  },
+  {
+    "console_command": "001A4253",
+    "description": "Corpo Boardroom Suit"
+  },
+  {
+    "console_command": "00190D0B",
+    "description": "Corpo Executive Suit"
+  },
+  {
+    "console_command": "002265B0",
+    "description": "Corpo Power Suit"
+  },
+  {
+    "console_command": "0019F9C1",
+    "description": "Corpo Salary Suit"
+  },
+  {
+    "console_command": "002265B1",
+    "description": "Corpo Sleek Suit"
+  },
+  {
+    "console_command": "001F1DCE",
+    "description": "Cream and Blue Dress"
+  },
+  {
+    "console_command": "000788AB",
+    "description": "Cyberware Streetwear"
+  },
+  {
+    "console_command": "00177494",
+    "description": "Dalton Fiennes' Suit"
+  },
+  {
+    "console_command": "00185A6E",
+    "description": "Deimos Cap"
+  },
+  {
+    "console_command": "002BA0E1",
+    "description": "Deputy Hat"
+  },
+  {
+    "console_command": "002262D3",
+    "description": "Disciples Tagwear"
+  },
+  {
+    "console_command": "001625DC",
+    "description": "DJ Headphones"
+  },
+  {
+    "console_command": "001625DB",
+    "description": "DJ Headphones Cap"
+  },
+  {
+    "console_command": "0017A439",
+    "description": "ECS Captain Actionwear"
+  },
+  {
+    "console_command": "0017A437",
+    "description": "ECS Officer Uniform"
+  },
+  {
+    "console_command": "0017A438",
+    "description": "ECS Uniform"
+  },
+  {
+    "console_command": "001A8DE6",
+    "description": "Enhance Service Uniform"
+  },
+  {
+    "console_command": "00077816",
+    "description": "Engineering Outfit"
+  },
+  {
+    "console_command": "003FC344",
+    "description": "Explorer Adventure Hat"
+  },
+  {
+    "console_command": "00204002",
+    "description": "Farming Hat"
+  },
+  {
+    "console_command": "002262D5",
+    "description": "Farming Outfit"
+  },
+  {
+    "console_command": "00250C86",
+    "description": "Fashionable Suit"
+  },
+  {
+    "console_command": "0010799A",
+    "description": "Faye Sengsavahn's Outfit"
+  },
+  {
+    "console_command": "0009F0F6",
+    "description": "Festive Neocity Poncho"
+  },
+  {
+    "console_command": "003EC02E",
+    "description": "Filthy Physician Uniform"
+  },
+  {
+    "console_command": "0024EF42",
+    "description": "Fishworker Mask"
+  },
+  {
+    "console_command": "0024EF40",
+    "description": "Fishworker Splashwear"
+  },
+  {
+    "console_command": "0024EF41",
+    "description": "Fishworker Wetwear"
+  },
+  {
+    "console_command": "003E5D26",
+    "description": "First Mercenary Outfit"
+  },
+  {
+    "console_command": "0021113E",
+    "description": "First Officer Hat"
+  },
+  {
+    "console_command": "00228826",
+    "description": "First Officer Outfit"
+  },
+  {
+    "console_command": "0021F3F4",
+    "description": "First Soldier Helmet"
+  },
+  {
+    "console_command": "00228825",
+    "description": "First Soldier Outfit"
+  },
+  {
+    "console_command": "000788A1",
+    "description": "Formal Slack Suit"
+  },
+  {
+    "console_command": "0021BBF1",
+    "description": "Franklin Roosevelt's Outfit"
+  },
+  {
+    "console_command": "0022856C",
+    "description": "Freestar Duelwear"
+  },
+  {
+    "console_command": "00224FE9",
+    "description": "Freestar Dustwear"
+  },
+  {
+    "console_command": "0021712A",
+    "description": "Freestar Militia Hat"
+  },
+  {
+    "console_command": "00228827",
+    "description": "Freestar Militia Uniform"
+  },
+  {
+    "console_command": "001CB843",
+    "description": "GalBank Service Uniform"
+  },
+  {
+    "console_command": "003CD812",
+    "description": "Generdyne Guard Helmet"
+  },
+  {
+    "console_command": "003CD80F",
+    "description": "Generdyne Lab Uniform"
+  },
+  {
+    "console_command": "003CD810",
+    "description": "Generdyne Security Uniform"
+  },
+  {
+    "console_command": "001D8426",
+    "description": "Genghis Khan's Hat"
+  },
+  {
+    "console_command": "002262D2",
+    "description": "Genghis Khan's Outfit"
+  },
+  {
+    "console_command": "00177492",
+    "description": "Genevieve Monohan's Suit"
+  },
+  {
+    "console_command": "001466F0",
+    "description": "Gray Elbow Grease Gear"
+  },
+  {
+    "console_command": "0029E175",
+    "description": "Gray Labor Jumpsuit"
+  },
+  {
+    "console_command": "001466EC",
+    "description": "Gray Leather Jumpsuit"
+  },
+  {
+    "console_command": "002619EF",
+    "description": "Green Fashionable Suit"
+  },
+  {
+    "console_command": "0029AEAE",
+    "description": "Hazmat Suit"
+  },
+  {
+    "console_command": "00273C05",
+    "description": "Homesteader Scout Hat"
+  },
+  {
+    "console_command": "00185A6C",
+    "description": "Hopetech Cap"
+  },
+  {
+    "console_command": "00108353",
+    "description": "Ikande's SysDef Officer Uniform"
+  },
+  {
+    "console_command": "00177493",
+    "description": "Imogene Salzo's Suit"
+  },
+  {
+    "console_command": "0025DEF0",
+    "description": "Inclement Weather Outfit"
+  },
+  {
+    "console_command": "000788AA",
+    "description": "Jacketed Leatherwear"
+  },
+  {
+    "console_command": "00009CC7",
+    "description": "Leatherwear"
+  },
+  {
+    "console_command": "002619FD",
+    "description": "Leather Streetwear"
+  },
+  {
+    "console_command": "002619FE",
+    "description": "Leather Pocketwear"
+  },
+  {
+    "console_command": "00177495",
+    "description": "Linden Calderi's Suit"
+  },
+  {
+    "console_command": "00030B4B",
+    "description": "Matteo Khatri's Hat"
+  },
+  {
+    "console_command": "00030B4D",
+    "description": "Matteo's Outfit"
+  },
+  {
+    "console_command": "00226298",
+    "description": "Masako Imada's Outfit"
+  },
+  {
+    "console_command": "001A52D1",
+    "description": "Megacorp Executive Suit"
+  },
+  {
+    "console_command": "000028A5",
+    "description": "Medic Uniform"
+  },
+  {
+    "console_command": "002262D1",
+    "description": "Mei Devine's Outfit"
+  },
+  {
+    "console_command": "0026D8AA",
+    "description": "Miner Hard Hat Outfit"
+  },
+  {
+    "console_command": "0001D1D7",
+    "description": "Miner Jumpsuit"
+  },
+  {
+    "console_command": "0001D1D9",
+    "description": "Miner Jacketed Jumpsuit"
+  },
+  {
+    "console_command": "0009B72F",
+    "description": "Miner Orebreaker Outfit"
+  },
+  {
+    "console_command": "0001D1E7",
+    "description": "Miner Utility Outfit"
+  },
+  {
+    "console_command": "00225FCA",
+    "description": "Naeva's Outfit"
+  },
+  {
+    "console_command": "000C47A0",
+    "description": "NASA Lab Uniform"
+  },
+  {
+    "console_command": "001F1DC9",
+    "description": "Navy Tan Dress"
+  },
+  {
+    "console_command": "002266A2",
+    "description": "Neocity Corpwear"
+  },
+  {
+    "console_command": "000788A4",
+    "description": "Neocity Hustler Outfit"
+  },
+  {
+    "console_command": "002266A3",
+    "description": "Neon Businesswear"
+  },
+  {
+    "console_command": "001F1DD0",
+    "description": "Neon Clublife Skirt"
+  },
+  {
+    "console_command": "000C900A",
+    "description": "Neon Dancer Headwear"
+  },
+  {
+    "console_command": "00225FCC",
+    "description": "Neon Dancer Outfit"
+  },
+  {
+    "console_command": "003556E7",
+    "description": "Neon Nightlife Jumpsuit"
+  },
+  {
+    "console_command": "001F1DCF",
+    "description": "Neon Nightlife Skirt"
+  },
+  {
+    "console_command": "001F73EF",
+    "description": "Neon Security Helmet"
+  },
+  {
+    "console_command": "00225D9E",
+    "description": "Neon Security Uniform"
+  },
+  {
+    "console_command": "00165720",
+    "description": "Neon Socialite Skirt"
+  },
+  {
+    "console_command": "0021BBF2",
+    "description": "New Atlantis Sec Uniform"
+  },
+  {
+    "console_command": "001A2507",
+    "description": "NeuroBoost Mark I"
+  },
+  {
+    "console_command": "00100517",
+    "description": "NeuroBoost Mark II"
+  },
+  {
+    "console_command": "00100518",
+    "description": "NeuroBoost Mark III"
+  },
+  {
+    "console_command": "00100519",
+    "description": "NeuroCom Mark I"
+  },
+  {
+    "console_command": "0010051A",
+    "description": "NeuroCom Mark II"
+  },
+  {
+    "console_command": "0010051B",
+    "description": "NeuroCom Mark III"
+  },
+  {
+    "console_command": "0010051C",
+    "description": "NeuroTac Mark I"
+  },
+  {
+    "console_command": "0010051D",
+    "description": "NeuroTac Mark II"
+  },
+  {
+    "console_command": "0010051F",
+    "description": "NeuroTac Mark III"
+  },
+  {
+    "console_command": "00225DA0",
+    "description": "Nightwear"
+  },
+  {
+    "console_command": "00036AFC",
+    "description": "Noel's Outfit"
+  },
+  {
+    "console_command": "0018DE02",
+    "description": "Nyx's Outfit"
+  },
+  {
+    "console_command": "0018B54A",
+    "description": "Operative Suit"
+  },
+  {
+    "console_command": "00261A03",
+    "description": "Padded Hat"
+  },
+  {
+    "console_command": "0002FE70",
+    "description": "Paradiso Staff Uniform"
+  },
+  {
+    "console_command": "002BC183",
+    "description": "Patient's Clothes"
+  },
+  {
+    "console_command": "003E5D27",
+    "description": "Paxton's Officer Hat"
+  },
+  {
+    "console_command": "0022766B",
+    "description": "Pirate Captain Outfit"
+  },
+  {
+    "console_command": "002491EA",
+    "description": "Prison Scrubs"
+  },
+  {
+    "console_command": "00208E8B",
+    "description": "Prisoner Uniform"
+  },
+  {
+    "console_command": "00226297",
+    "description": "Physician Uniform"
+  },
+  {
+    "console_command": "001BF2F8",
+    "description": "Pryce's Suit"
+  },
+  {
+    "console_command": "0013730B",
+    "description": "Ranger Deputy Uniform"
+  },
+  {
+    "console_command": "002BA0E1",
+    "description": "Ranger Hat"
+  },
+  {
+    "console_command": "001CFA01",
+    "description": "Red Mile Service Uniform"
+  },
+  {
+    "console_command": "000028A6",
+    "description": "Reliant Medical Uniform"
+  },
+  {
+    "console_command": "00003BF6",
+    "description": "Resort Wear"
+  },
+  {
+    "console_command": "00003C4D",
+    "description": "Resort Wear"
+  },
+  {
+    "console_command": "003EB4B4",
+    "description": "Rokov's Officer Hat"
+  },
+  {
+    "console_command": "0037A34F",
+    "description": "Ryujin Guard Helmet"
+  },
+  {
+    "console_command": "0037A34E",
+    "description": "Ryujin Guard Uniform"
+  },
+  {
+    "console_command": "00034110",
+    "description": "Ryujin Lab Outfit"
+  },
+  {
+    "console_command": "001823CB",
+    "description": "Ryujin Lab Worker Hood"
+  },
+  {
+    "console_command": "001823CC",
+    "description": "Ryujin Lab Worker Outfit"
+  },
+  {
+    "console_command": "00034114",
+    "description": "Ryujin R&D Outfit"
+  },
+  {
+    "console_command": "0001D1DE",
+    "description": "Sam Coe's Outfit"
+  },
+  {
+    "console_command": "0016571D",
+    "description": "Sanctum Priest Headwear"
+  },
+  {
+    "console_command": "00055905",
+    "description": "Sarah Morgan's Outfit"
+  },
+  {
+    "console_command": "0021C786",
+    "description": "Sari Dress"
+  },
+  {
+    "console_command": "00165718",
+    "description": "Security Guard Helmet"
+  },
+  {
+    "console_command": "000CC4D1",
+    "description": "Security Flightsuit"
+  },
+  {
+    "console_command": "0021C783",
+    "description": "Service Industry Uniform"
+  },
+  {
+    "console_command": "0025DEEF",
+    "description": "Settler Adventure Hat"
+  },
+  {
+    "console_command": "00258039",
+    "description": "Settler Casual Hat"
+  },
+  {
+    "console_command": "0024EF65",
+    "description": "Settler Hat"
+  },
+  {
+    "console_command": "000753F4",
+    "description": "Shielded Lab Outfit"
+  },
+  {
+    "console_command": "0021C782",
+    "description": "Shinya Voss Outfit"
+  },
+  {
+    "console_command": "0016E0B9",
+    "description": "Ship Captain Hat"
+  },
+  {
+    "console_command": "0021C781",
+    "description": "Ship Captain's Uniform"
+  },
+  {
+    "console_command": "0029080F",
+    "description": "Space Rogue Muscle Gear"
+  },
+  {
+    "console_command": "0029080E",
+    "description": "Space Rogue Outfit"
+  },
+  {
+    "console_command": "002456F2",
+    "description": "Space Trucker Bar Duds"
+  },
+  {
+    "console_command": "002456F3",
+    "description": "Space Trucker Cap"
+  },
+  {
+    "console_command": "00246B31",
+    "description": "Space Trucker Cargowear"
+  },
+  {
+    "console_command": "002456F4",
+    "description": "Space Trucker Casualwear"
+  },
+  {
+    "console_command": "002470D1",
+    "description": "Space Trucker Flannel"
+  },
+  {
+    "console_command": "002470D2",
+    "description": "Space Trucker Flannel"
+  },
+  {
+    "console_command": "0029080D",
+    "description": "Space Trucker Hat"
+  },
+  {
+    "console_command": "002470D0",
+    "description": "Space Trucker Haul Wrap"
+  },
+  {
+    "console_command": "00165722",
+    "description": "Space Undersuit"
+  },
+  {
+    "console_command": "002E18F6",
+    "description": "Striker Maskwear"
+  },
+  {
+    "console_command": "00064A2E",
+    "description": "Striker Streetwear"
+  },
+  {
+    "console_command": "00027189",
+    "description": "Suit with Lapel Pin"
+  },
+  {
+    "console_command": "0002FA4",
+    "description": "Swimsuit"
+  },
+  {
+    "console_command": "000D41F8",
+    "description": "SY-920 Fatigues"
+  },
+  {
+    "console_command": "0011F3A8",
+    "description": "Syndicate Capo Suit"
+  },
+  {
+    "console_command": "0011F3AC",
+    "description": "Syndicate Club Suit"
+  },
+  {
+    "console_command": "0011F3AD",
+    "description": "Syndicate Boss Suit"
+  },
+  {
+    "console_command": "0011F3B0",
+    "description": "Syndicate Pinstripes"
+  },
+  {
+    "console_command": "0011F3A7",
+    "description": "Syndicate Thug Suit"
+  },
+  {
+    "console_command": "002619FC",
+    "description": "Synth Leatherwear"
+  },
+  {
+    "console_command": "002619FC",
+    "description": "Synthleather Streetwear"
+  },
+  {
+    "console_command": "003329BB",
+    "description": "SysDef Crew Uniform"
+  },
+  {
+    "console_command": "003329B4",
+    "description": "SysDef Formal Uniform"
+  },
+  {
+    "console_command": "0021C1FB",
+    "description": "SysDef Officer Uniform"
+  },
+  {
+    "console_command": "000D981C",
+    "description": "SysDef Prison Scrubs"
+  },
+  {
+    "console_command": "00185A69",
+    "description": "Taiyo Astroneering Cap"
+  },
+  {
+    "console_command": "001466F1",
+    "description": "Teal Elbow Grease Gear"
+  },
+  {
+    "console_command": "001466F9",
+    "description": "Teal Engineering Outfit"
+  },
+  {
+    "console_command": "001466ED",
+    "description": "Teal Leather Jumpsuit"
+  },
+  {
+    "console_command": "001466FD",
+    "description": "Teal Open Graviplas Helmet"
+  },
+  {
+    "console_command": "003CF431",
+    "description": "TerraBrew Barista Outfit"
+  },
+  {
+    "console_command": "0007F88D",
+    "description": "TerraBrew Uniform"
+  },
+  {
+    "console_command": "001CB7E7",
+    "description": "Trade Authority Uniform"
+  },
+  {
+    "console_command": "00164BDD",
+    "description": "Trident Crew Uniform"
+  },
+  {
+    "console_command": "0014E44E",
+    "description": "Trident Guard Helmet"
+  },
+  {
+    "console_command": "000DBFDA",
+    "description": "Trident Guard Uniform"
+  },
+  {
+    "console_command": "00185A68",
+    "description": "Trident Luxury Lines Cap"
+  },
+  {
+    "console_command": "00034111",
+    "description": "TRItek Lab Outfit"
+  },
+  {
+    "console_command": "00077818",
+    "description": "UC Gray Utility Jumpsuit"
+  },
+  {
+    "console_command": "002C6E7D",
+    "description": "UC Navy Armored Fatigues"
+  },
+  {
+    "console_command": "0018E260",
+    "description": "UC Navy Crew Hat"
+  },
+  {
+    "console_command": "0021A86E",
+    "description": "UC Navy Crew Uniform"
+  },
+  {
+    "console_command": "003E3ACF",
+    "description": "UC Navy Duty Fatigues"
+  },
+  {
+    "console_command": "002C6E7F",
+    "description": "UC Navy Fatigues"
+  },
+  {
+    "console_command": "002C6E7E",
+    "description": "UC Navy Hat"
+  },
+  {
+    "console_command": "003E3AD1",
+    "description": "UC Navy Recon Fatigues"
+  },
+  {
+    "console_command": "0021A86D",
+    "description": "UC Navy Officer Uniform"
+  },
+  {
+    "console_command": "0025E8D5",
+    "description": "UC Security Helmet"
+  },
+  {
+    "console_command": "0025E8D4",
+    "description": "UC Security Uniform"
+  },
+  {
+    "console_command": "003329BC",
+    "description": "UC SysDef Crew Hat"
+  },
+  {
+    "console_command": "003B2A81",
+    "description": "Ularu's Suit"
+  },
+  {
+    "console_command": "00185A67",
+    "description": "United Colonies Cap"
+  },
+  {
+    "console_command": "002619FB",
+    "description": "Urban Operator Outfit"
+  },
+  {
+    "console_command": "000788A2",
+    "description": "Urban Slackwear"
+  },
+  {
+    "console_command": "00251F56",
+    "description": "Utility Flightsuit"
+  },
+  {
+    "console_command": "000781F9",
+    "description": "Utility Headphone Cap"
+  },
+  {
+    "console_command": "00252AE7",
+    "description": "Utility Headphones"
+  },
+  {
+    "console_command": "003CAF7E",
+    "description": "Vanguard Officer Uniform"
+  },
+  {
+    "console_command": "002619F7",
+    "description": "Vested Suit"
+  },
+  {
+    "console_command": "0002B5EE",
+    "description": "White Neocity Poncho"
+  },
+  {
+    "console_command": "0029E173",
+    "description": "Yellow Labor Jumpsuit"
+  },
+  {
+    "console_command": "0004008C",
+    "description": "Xenofresh Clean Suit"
+  },
+  {
+    "console_command": "001466FF",
+    "description": "Xenofresh Tech Outfit"
+  },
+  {
+    "console_command": "Item IDs",
+    "description": "Aid Name"
+  },
+  {
+    "console_command": "0029A851",
+    "description": "Addichrone"
+  },
+  {
+    "console_command": "000C1F57",
+    "description": "Alien Genetic Material"
+  },
+  {
+    "console_command": "00299592",
+    "description": "AMP"
+  },
+  {
+    "console_command": "0003D3AD",
+    "description": "Anchored Immobilizers"
+  },
+  {
+    "console_command": "002F4436",
+    "description": "Antibiotics"
+  },
+  {
+    "console_command": "0003D3A9",
+    "description": "Antibiotic Cocktail"
+  },
+  {
+    "console_command": "0003D3AF",
+    "description": "Antibiotic Injector"
+  },
+  {
+    "console_command": "0003D3AE",
+    "description": "Antibiotic Paste"
+  },
+  {
+    "console_command": "00299590",
+    "description": "Antibiotic Paste"
+  },
+  {
+    "console_command": "002543B9",
+    "description": "Baguette"
+  },
+  {
+    "console_command": "002F4459",
+    "description": "Bandages"
+  },
+  {
+    "console_command": "002A5024",
+    "description": "Battlestim"
+  },
+  {
+    "console_command": "00249C2A",
+    "description": "Blend"
+  },
+  {
+    "console_command": "0003D3AC",
+    "description": "Boosted Injector"
+  },
+  {
+    "console_command": "0029959F",
+    "description": "Boudicca"
+  },
+  {
+    "console_command": "0029A849",
+    "description": "Boudicca"
+  },
+  {
+    "console_command": "002C7211",
+    "description": "Bourbon"
+  },
+  {
+    "console_command": "002C7C0A",
+    "description": "Butter"
+  },
+  {
+    "console_command": "002C722D",
+    "description": "Can-uck! Bacon"
+  },
+  {
+    "console_command": "00249C49",
+    "description": "Can-uck! Double Double"
+  },
+  {
+    "console_command": "00249C4A",
+    "description": "Can-uck! Edmontonian"
+  },
+  {
+    "console_command": "00249C4C",
+    "description": "Can-uck! Ham Boys"
+  },
+  {
+    "console_command": "00249C4D",
+    "description": "Can-uck! Haligonian"
+  },
+  {
+    "console_command": "00249C48",
+    "description": "Can-uck! Maple Cola"
+  },
+  {
+    "console_command": "002C720D",
+    "description": "Can-uck! Pilsner"
+  },
+  {
+    "console_command": "002C7231",
+    "description": "Can-uck! Poutine"
+  },
+  {
+    "console_command": "00249C4B",
+    "description": "Can-uck! Shepherd's Pie"
+  },
+  {
+    "console_command": "002C7232",
+    "description": "Can-uck! Tourtiere"
+  },
+  {
+    "console_command": "00092B98",
+    "description": "Carrot"
+  },
+  {
+    "console_command": "00092B99",
+    "description": "Celery"
+  },
+  {
+    "console_command": "002C7236",
+    "description": "Cheddar Snack Crackers"
+  },
+  {
+    "console_command": "001FC9C1",
+    "description": "Cheese"
+  },
+  {
+    "console_command": "002C7202",
+    "description": "Chandra Cabernet Sauvignon"
+  },
+  {
+    "console_command": "002C7204",
+    "description": "Chandra Chardonnay"
+  },
+  {
+    "console_command": "002C7203",
+    "description": "Chandra Malbec"
+  },
+  {
+    "console_command": "002C7208",
+    "description": "Chandra Merlot"
+  },
+  {
+    "console_command": "002C7206",
+    "description": "Chandra Pinot Noir"
+  },
+  {
+    "console_command": "002C7209",
+    "description": "Chandra Port"
+  },
+  {
+    "console_command": "002C7207",
+    "description": "Chandra Sauvignon Blanc"
+  },
+  {
+    "console_command": "002C7205",
+    "description": "Chandra Riesling"
+  },
+  {
+    "console_command": "00206770",
+    "description": "Chunks Apple"
+  },
+  {
+    "console_command": "00206771",
+    "description": "Chunks Apple - Packaged"
+  },
+  {
+    "console_command": "00206763",
+    "description": "Chunks Beef"
+  },
+  {
+    "console_command": "0020676F",
+    "description": "Chunks Beef - Packaged"
+  },
+  {
+    "console_command": "0020676D",
+    "description": "Chunks Cake"
+  },
+  {
+    "console_command": "0020676E",
+    "description": "Chunks Cake - Packaged"
+  },
+  {
+    "console_command": "0020676B",
+    "description": "Chunks Cheesesteak"
+  },
+  {
+    "console_command": "0020676C",
+    "description": "Chunks Cheesesteak - Packaged"
+  },
+  {
+    "console_command": "00206764",
+    "description": "Chunks Chicken"
+  },
+  {
+    "console_command": "0020676A",
+    "description": "Chunks Chick - Packaged"
+  },
+  {
+    "console_command": "00206769",
+    "description": "Chunks Choco"
+  },
+  {
+    "console_command": "00206769",
+    "description": "Chunks Choco - Packaged"
+  },
+  {
+    "console_command": "00206767",
+    "description": "Chunks Cola - Packaged"
+  },
+  {
+    "console_command": "00206765",
+    "description": "Chunks Egg"
+  },
+  {
+    "console_command": "001E29A8",
+    "description": "Chunks Egg - Packaged"
+  },
+  {
+    "console_command": "0020675F",
+    "description": "Chunks Pie"
+  },
+  {
+    "console_command": "00206760",
+    "description": "Chunks Pie - Packaged"
+  },
+  {
+    "console_command": "00206761",
+    "description": "Chunks Potato"
+  },
+  {
+    "console_command": "00206762",
+    "description": "Chunks Potato - Packaged"
+  },
+  {
+    "console_command": "0020675D",
+    "description": "Chunks Wine"
+  },
+  {
+    "console_command": "0020675E",
+    "description": "Chunks Wine - Packaged"
+  },
+  {
+    "console_command": "00249C1A",
+    "description": "Codos Crater"
+  },
+  {
+    "console_command": "0029A85E",
+    "description": "CQB-X"
+  },
+  {
+    "console_command": "00139E45",
+    "description": "Dark Lager"
+  },
+  {
+    "console_command": "002C72117",
+    "description": "Drink Pack: Beer"
+  },
+  {
+    "console_command": "002C7216",
+    "description": "Drink Pack: Milk"
+  },
+  {
+    "console_command": "002C721A",
+    "description": "Drink Pack: Orange Juice"
+  },
+  {
+    "console_command": "002C7218",
+    "description": "Drink Pack: Water"
+  },
+  {
+    "console_command": "002C7214",
+    "description": "Drink Pack: White Wine"
+  },
+  {
+    "console_command": "002C7219",
+    "description": "Drink Pack: Whiskey"
+  },
+  {
+    "console_command": "002C7215",
+    "description": "Drink Pack: Red Wine"
+  },
+  {
+    "console_command": "0029B00E",
+    "description": "Drink Pack: Vodka"
+  },
+  {
+    "console_command": "002A9DE8",
+    "description": "Emergency Kit"
+  },
+  {
+    "console_command": "001FF69C",
+    "description": "Erdebrau Dark Can"
+  },
+  {
+    "console_command": "001FF69E",
+    "description": "Erdebrau Lager Can"
+  },
+  {
+    "console_command": "001FF6A0",
+    "description": "Erdebrau Light Can"
+  },
+  {
+    "console_command": "001FF69A",
+    "description": "Erdebrau Pils Can"
+  },
+  {
+    "console_command": "00249C20",
+    "description": "Fried Pickles"
+  },
+  {
+    "console_command": "002995A1",
+    "description": "Frostwolf"
+  },
+  {
+    "console_command": "002C5885",
+    "description": "Frostwolf"
+  },
+  {
+    "console_command": "000304CE",
+    "description": "FullFood Spiced Worms"
+  },
+  {
+    "console_command": "002C7235",
+    "description": "Granola Mix"
+  },
+  {
+    "console_command": "00092B9A",
+    "description": "Grapes"
+  },
+  {
+    "console_command": "0003D3AB",
+    "description": "Heal Gel"
+  },
+  {
+    "console_command": "002F445C",
+    "description": "Heal Paste"
+  },
+  {
+    "console_command": "0029CAD9",
+    "description": "Heart Plus"
+  },
+  {
+    "console_command": "002C5883",
+    "description": "Hippolyta"
+  },
+  {
+    "console_command": "002F445B",
+    "description": "Immobilizer"
+  },
+  {
+    "console_command": "0029A85C",
+    "description": "Infantry Alpha"
+  },
+  {
+    "console_command": "0003D3B0",
+    "description": "Infused Bandages"
+  },
+  {
+    "console_command": "002F445A",
+    "description": "Injector"
+  },
+  {
+    "console_command": "00143CB1",
+    "description": "Junk Flush"
+  },
+  {
+    "console_command": "002C7213",
+    "description": "Kefir"
+  },
+  {
+    "console_command": "0004B1D8",
+    "description": "Lemon"
+  },
+  {
+    "console_command": "00092B9B",
+    "description": "Lettuce"
+  },
+  {
+    "console_command": "0004B1D7",
+    "description": "Lime"
+  },
+  {
+    "console_command": "002C7238",
+    "description": "Marshmallow Treat Cereal"
+  },
+  {
+    "console_command": "00191214",
+    "description": "Meal Kit"
+  },
+  {
+    "console_command": "002C7221",
+    "description": "Meal Pack - Cereal"
+  },
+  {
+    "console_command": "002C721C",
+    "description": "Meal Pack - Chicken"
+  },
+  {
+    "console_command": "002C7222",
+    "description": "Meal Pack - Eggs"
+  },
+  {
+    "console_command": "002C721F",
+    "description": "Meal Pack - Ramen"
+  },
+  {
+    "console_command": "002C721D",
+    "description": "Meal Pack - Shrimp"
+  },
+  {
+    "console_command": "002C7220",
+    "description": "Meal Pack - Sushi"
+  },
+  {
+    "console_command": "002C721E",
+    "description": "Meal Pack - Tofu"
+  },
+  {
+    "console_command": "0000ABF9",
+    "description": "Med Pack"
+  },
+  {
+    "console_command": "0019121F",
+    "description": "Milk"
+  },
+  {
+    "console_command": "001EE5C7",
+    "description": "Miso Soup Multipack"
+  },
+  {
+    "console_command": "001EDDDF",
+    "description": "Mochi"
+  },
+  {
+    "console_command": "001EDDDE",
+    "description": "Mochi Minibite"
+  },
+  {
+    "console_command": "001EDDE0",
+    "description": "Mochi Multipack"
+  },
+  {
+    "console_command": "0029958F",
+    "description": "Neurajack"
+  },
+  {
+    "console_command": "00003A22",
+    "description": "Orange"
+  },
+  {
+    "console_command": "00139E44",
+    "description": "Pale Ale"
+  },
+  {
+    "console_command": "002995A3",
+    "description": "Panacea"
+  },
+  {
+    "console_command": "002C5881",
+    "description": "Paramour"
+  },
+  {
+    "console_command": "00249C21",
+    "description": "Patty Melt"
+  },
+  {
+    "console_command": "00003A23",
+    "description": "Peach"
+  },
+  {
+    "console_command": "00003A21",
+    "description": "Pear"
+  },
+  {
+    "console_command": "0029A84F",
+    "description": "Penicillin X"
+  },
+  {
+    "console_command": "001944E4",
+    "description": "Pepper Steak Sandwich"
+  },
+  {
+    "console_command": "00003A26",
+    "description": "Potato"
+  },
+  {
+    "console_command": "002C7237",
+    "description": "Raisin Bran Cereal"
+  },
+  {
+    "console_command": "001EE441",
+    "description": "Ramen"
+  },
+  {
+    "console_command": "001EE442",
+    "description": "Ramen Minibite"
+  },
+  {
+    "console_command": "001EE440",
+    "description": "Ramen Multipack"
+  },
+  {
+    "console_command": "0029A855",
+    "description": "Reconstim"
+  },
+  {
+    "console_command": "00139E43",
+    "description": "Red Ale"
+  },
+  {
+    "console_command": "0001BBAB",
+    "description": "Red Harvest Amber Ale"
+  },
+  {
+    "console_command": "0003614B",
+    "description": "Red Harvest Double Malt Whiskey"
+  },
+  {
+    "console_command": "002C7241",
+    "description": "Red Harvest Lentils"
+  },
+  {
+    "console_command": "0001BBAC",
+    "description": "Red Harvest Milk Stout"
+  },
+  {
+    "console_command": "002C723F",
+    "description": "Red Harvest Naan"
+  },
+  {
+    "console_command": "0001BBAA",
+    "description": "Red Harvest Pale Ale"
+  },
+  {
+    "console_command": "0029B013",
+    "description": "Red Harvest Rice"
+  },
+  {
+    "console_command": "002C723C",
+    "description": "Red Harvest Rye"
+  },
+  {
+    "console_command": "0003614C",
+    "description": "Red Harvest Single Malt Whiskey"
+  },
+  {
+    "console_command": "002C7240",
+    "description": "Red Harvest Spaghetti"
+  },
+  {
+    "console_command": "002C723D",
+    "description": "Red Harvest Wheat"
+  },
+  {
+    "console_command": "002C723E",
+    "description": "Red Harvest White"
+  },
+  {
+    "console_command": "002C587F",
+    "description": "Red Trench"
+  },
+  {
+    "console_command": "0003D3B1",
+    "description": "Repairing Immobilizer"
+  },
+  {
+    "console_command": "002543B7",
+    "description": "Sandwich"
+  },
+  {
+    "console_command": "002C724D",
+    "description": "Seaweed Minibite"
+  },
+  {
+    "console_command": "0030283B",
+    "description": "Seaweed Snacks Multipack"
+  },
+  {
+    "console_command": "0003FB19",
+    "description": "Ship Parts"
+  },
+  {
+    "console_command": "0029A860",
+    "description": "Smoked Salmon Fillet"
+  },
+  {
+    "console_command": "002C7223",
+    "description": "Snack Pack - Apple Bites"
+  },
+  {
+    "console_command": "002C7225",
+    "description": "Snack Pack - Choco Bites"
+  },
+  {
+    "console_command": "002C7226",
+    "description": "Snack Pack - Gummi Bugs"
+  },
+  {
+    "console_command": "002C7224",
+    "description": "Snack Pack - Protein Bar"
+  },
+  {
+    "console_command": "0029A850",
+    "description": "Snake Oil"
+  },
+  {
+    "console_command": "001EDDE5",
+    "description": "Soba"
+  },
+  {
+    "console_command": "001EDDE4",
+    "description": "Soba Minibite"
+  },
+  {
+    "console_command": "00249C1B",
+    "description": "Solomon's Reserve"
+  },
+  {
+    "console_command": "000304CC",
+    "description": "Sparkling Water"
+  },
+  {
+    "console_command": "001DFCB4",
+    "description": "Sparkling Wine"
+  },
+  {
+    "console_command": "002A9DE7",
+    "description": "Squall"
+  },
+  {
+    "console_command": "00243FA5",
+    "description": "Supernova"
+  },
+  {
+    "console_command": "001DFCAB",
+    "description": "Sushi Rolls Minibite"
+  },
+  {
+    "console_command": "001DFCAC",
+    "description": "Sushi Rolls Multiplack"
+  },
+  {
+    "console_command": "002C5880",
+    "description": "Synapse Alpha"
+  },
+  {
+    "console_command": "002C7242",
+    "description": "Synthameat Chicken"
+  },
+  {
+    "console_command": "002C7246",
+    "description": "Synthameat Ham"
+  },
+  {
+    "console_command": "002C7243",
+    "description": "Synthameat Hamburger"
+  },
+  {
+    "console_command": "000304D0",
+    "description": "Synthameat Multi"
+  },
+  {
+    "console_command": "002C7244",
+    "description": "Synthameat Steak"
+  },
+  {
+    "console_command": "0029A861",
+    "description": "Synthameat Turkey"
+  },
+  {
+    "console_command": "002C7245",
+    "description": "Synthameat Veal"
+  },
+  {
+    "console_command": "00249C15",
+    "description": "Ta'ameya Pita"
+  },
+  {
+    "console_command": "00249C4E",
+    "description": "TerraBew Cappuccino"
+  },
+  {
+    "console_command": "00249C50",
+    "description": "TerraBew Classic"
+  },
+  {
+    "console_command": "003E3407",
+    "description": "TerraBew Cortado"
+  },
+  {
+    "console_command": "0029A894",
+    "description": "TerraBew Espresso"
+  },
+  {
+    "console_command": "00249C4F",
+    "description": "TerraBew Latte"
+  },
+  {
+    "console_command": "003E3408",
+    "description": "TerraBew Macchiato"
+  },
+  {
+    "console_command": "001DFCAE",
+    "description": "Toast"
+  },
+  {
+    "console_command": "00092B96",
+    "description": "Tomato"
+  },
+  {
+    "console_command": "0010FA09",
+    "description": "Tranquilitea Earl Gray"
+  },
+  {
+    "console_command": "0029A847",
+    "description": "Trauma Pack"
+  },
+  {
+    "console_command": "0029A893",
+    "description": "UC BattleMeal"
+  },
+  {
+    "console_command": "0030283E",
+    "description": "UC BattleMeal Multipack"
+  },
+  {
+    "console_command": "001EDF0F",
+    "description": "Udon"
+  },
+  {
+    "console_command": "001EDF10",
+    "description": "Udon Minibite"
+  },
+  {
+    "console_command": "001EDF10",
+    "description": "Udon Multipack"
+  },
+  {
+    "console_command": "00249C1F",
+    "description": "Veggie Grinder"
+  },
+  {
+    "console_command": "002C7C09",
+    "description": "Yogurt"
+  },
+  {
+    "console_command": "0014098A",
+    "description": "Yuko's Coffee"
+  },
+  {
+    "console_command": "0003D3AA",
+    "description": "Zipper Bandages"
+  },
+  {
+    "console_command": "Item Code",
+    "description": "Cooking Station Item Name"
+  },
+  {
+    "console_command": "0029B046",
+    "description": "Alien Broth"
+  },
+  {
+    "console_command": "0029B047",
+    "description": "Alien Energy Drink"
+  },
+  {
+    "console_command": "002C7C0C",
+    "description": "Alien Jerky"
+  },
+  {
+    "console_command": "0029B061",
+    "description": "Alien Kebabs"
+  },
+  {
+    "console_command": "0029B04F",
+    "description": "Alien Liquor"
+  },
+  {
+    "console_command": "0029B063",
+    "description": "Alien Pie"
+  },
+  {
+    "console_command": "0029B062",
+    "description": "Alien Sandwich"
+  },
+  {
+    "console_command": "0029B065",
+    "description": "Alien Scramble"
+  },
+  {
+    "console_command": "0029B066",
+    "description": "Alien Stew"
+  },
+  {
+    "console_command": "0029B064",
+    "description": "Alien Stir Fry"
+  },
+  {
+    "console_command": "0029B052",
+    "description": "Alien Tea"
+  },
+  {
+    "console_command": "0029B048",
+    "description": "Alien Tonic"
+  },
+  {
+    "console_command": "0029B054",
+    "description": "Barbacoa Wrap"
+  },
+  {
+    "console_command": "0029B050",
+    "description": "Boba Alien Tea"
+  },
+  {
+    "console_command": "002C71F8",
+    "description": "Boom Pop! Black Licorice"
+  },
+  {
+    "console_command": "0029A863",
+    "description": "Boom Pop! Cherry"
+  },
+  {
+    "console_command": "002C71F5",
+    "description": "Boom Pop! Cola"
+  },
+  {
+    "console_command": "0029B040",
+    "description": "Boom Pop! Dynamite"
+  },
+  {
+    "console_command": "002C71F5",
+    "description": "Boom Pop! Orange"
+  },
+  {
+    "console_command": "003038FE",
+    "description": "Boom Pop! Reactor"
+  },
+  {
+    "console_command": "002C71F7",
+    "description": "Boom Pop! Rhubarb"
+  },
+  {
+    "console_command": "002C71F4",
+    "description": "Boom Pop! Root Beer"
+  },
+  {
+    "console_command": "0029B04B",
+    "description": "Bullet Coffee"
+  },
+  {
+    "console_command": "0029B03E",
+    "description": "Chai Latte"
+  },
+  {
+    "console_command": "002C7C0D",
+    "description": "Chapaguri"
+  },
+  {
+    "console_command": "0029B05C",
+    "description": "Chicken Marsala"
+  },
+  {
+    "console_command": "0029B05A",
+    "description": "Chicken Tikka"
+  },
+  {
+    "console_command": "0029B04E",
+    "description": "Colonel's Choice"
+  },
+  {
+    "console_command": "0029B05E",
+    "description": "Creature Jam"
+  },
+  {
+    "console_command": "0029B060",
+    "description": "Crispy Alien Nuggets"
+  },
+  {
+    "console_command": "0029B056",
+    "description": "Dal Makhai"
+  },
+  {
+    "console_command": "0029B042",
+    "description": "Disastrous Shipwreck"
+  },
+  {
+    "console_command": "0029B053",
+    "description": "Distilled Water"
+  },
+  {
+    "console_command": "0029B059",
+    "description": "Doro Wat"
+  },
+  {
+    "console_command": "0029B03F",
+    "description": "Fully-Loaded Bloody Mary"
+  },
+  {
+    "console_command": "00122E94",
+    "description": "Galaxy Lo Mein"
+  },
+  {
+    "console_command": "0029B05D",
+    "description": "Grilled Cheese Sandwich"
+  },
+  {
+    "console_command": "002C722B",
+    "description": "Ham and Cheese Sandwich"
+  },
+  {
+    "console_command": "002383E9",
+    "description": "Latkes"
+  },
+  {
+    "console_command": "0029B04D",
+    "description": "Lumberjack Julep"
+  },
+  {
+    "console_command": "0029B05B",
+    "description": "Meatloaf"
+  },
+  {
+    "console_command": "00122E96",
+    "description": "Nebula Wat"
+  },
+  {
+    "console_command": "0029B057",
+    "description": "Pappardelle Bolognese"
+  },
+  {
+    "console_command": "0029B055",
+    "description": "Reuben"
+  },
+  {
+    "console_command": "0029B058",
+    "description": "Spaghetti Carbonara"
+  },
+  {
+    "console_command": "00122E95",
+    "description": "Star Cluster Marsala"
+  },
+  {
+    "console_command": "00122E98",
+    "description": "Stellar Kebabs"
+  },
+  {
+    "console_command": "0029B04C",
+    "description": "Sunray Tonic"
+  },
+  {
+    "console_command": "0029B041",
+    "description": "Very Heavy Water"
+  },
+  {
+    "console_command": "0029B05F",
+    "description": "Xenowurst"
+  },
+  {
+    "console_command": "Item ID",
+    "description": "Resource Name"
+  },
+  {
+    "console_command": "00246B6A",
+    "description": "Adaptive Frame"
+  },
+  {
+    "console_command": "000055B1",
+    "description": "Adhesive"
+  },
+  {
+    "console_command": "00261295",
+    "description": "Adhesive (Bone)"
+  },
+  {
+    "console_command": "00261294",
+    "description": "Adhesive (Carapace)"
+  },
+  {
+    "console_command": "00260DBB",
+    "description": "Adhesive (Flower)"
+  },
+  {
+    "console_command": "00261293",
+    "description": "Adhesive (Gland)"
+  },
+  {
+    "console_command": "00261292",
+    "description": "Adhesive (Hide)"
+  },
+  {
+    "console_command": "00260DBA",
+    "description": "Adhesive (Leaf)"
+  },
+  {
+    "console_command": "00260DB9",
+    "description": "Adhesive (Root)"
+  },
+  {
+    "console_command": "00260DB8",
+    "description": "Adhesive (Sap)"
+  },
+  {
+    "console_command": "00260DB7",
+    "description": "Adhesive (Seed)"
+  },
+  {
+    "console_command": "00260DB6",
+    "description": "Adhesive (Stalk)"
+  },
+  {
+    "console_command": "00261291",
+    "description": "Adhesive (Tissue)"
+  },
+  {
+    "console_command": "00261290",
+    "description": "Adhesive (Vital Fluids)"
+  },
+  {
+    "console_command": "00005DEC",
+    "description": "Aldumite"
+  },
+  {
+    "console_command": "00202F5A",
+    "description": "Aldumite Drilling Rig"
+  },
+  {
+    "console_command": "00005570",
+    "description": "Alkanes"
+  },
+  {
+    "console_command": "0000557D",
+    "description": "Aluminum"
+  },
+  {
+    "console_command": "000055CD",
+    "description": "Amino Acids"
+  },
+  {
+    "console_command": "0026128F",
+    "description": "Amino Acids (Bone)"
+  },
+  {
+    "console_command": "0026128E",
+    "description": "Amino Acids (Carapace)"
+  },
+  {
+    "console_command": "00260DB5",
+    "description": "Amino Acids (Flower)"
+  },
+  {
+    "console_command": "0026128C",
+    "description": "Amino Acids (Gland)"
+  },
+  {
+    "console_command": "0026128B",
+    "description": "Amino Acids (Hide)"
+  },
+  {
+    "console_command": "00260DB4",
+    "description": "Amino Acids (Leaf)"
+  },
+  {
+    "console_command": "00260DB3",
+    "description": "Amino Acids (Root)"
+  },
+  {
+    "console_command": "00260DB2",
+    "description": "Amino Acids (Sap)"
+  },
+  {
+    "console_command": "00260DB1",
+    "description": "Amino Acids (Seed)"
+  },
+  {
+    "console_command": "00260DB0",
+    "description": "Amino Acids (Stalk)"
+  },
+  {
+    "console_command": "0026128A",
+    "description": "Amino Acids (Tissue)"
+  },
+  {
+    "console_command": "0026128D",
+    "description": "Amino Acids (Vital Fluids)"
+  },
+  {
+    "console_command": "000055A9",
+    "description": "Analgesic"
+  },
+  {
+    "console_command": "00261289",
+    "description": "Analgesic (Bone)"
+  },
+  {
+    "console_command": "00261288",
+    "description": "Analgesic (Carapace)"
+  },
+  {
+    "console_command": "00260DAF",
+    "description": "Analgesic (Flower)"
+  },
+  {
+    "console_command": "00261286",
+    "description": "Analgesic (Gland)"
+  },
+  {
+    "console_command": "00261285",
+    "description": "Analgesic (Hide)"
+  },
+  {
+    "console_command": "00260DAE",
+    "description": "Analgesic (Leaf)"
+  },
+  {
+    "console_command": "0260DAD",
+    "description": "Analgesic (Root)"
+  },
+  {
+    "console_command": "00260DAC",
+    "description": "Analgesic (Sap)"
+  },
+  {
+    "console_command": "00260D78",
+    "description": "Analgesic (Seed)"
+  },
+  {
+    "console_command": "00260D77",
+    "description": "Analgesic (Stalk)"
+  },
+  {
+    "console_command": "00261284",
+    "description": "Analgesic (Tissue)"
+  },
+  {
+    "console_command": "00261287",
+    "description": "Analgesic (Vital Fluids)"
+  },
+  {
+    "console_command": "000055AB",
+    "description": "Antimicrobial"
+  },
+  {
+    "console_command": "002612C8",
+    "description": "Antimicrobial (Bone)"
+  },
+  {
+    "console_command": "002612C7",
+    "description": "Antimicrobial (Carapace)"
+  },
+  {
+    "console_command": "00260DFB",
+    "description": "Antimicrobial (Flower)"
+  },
+  {
+    "console_command": "002612C9",
+    "description": "Antimicrobial (Gland)"
+  },
+  {
+    "console_command": "0024F5C0",
+    "description": "Antimicrobial (Hide)"
+  },
+  {
+    "console_command": "00260DF9",
+    "description": "Antimicrobial (Leaf)"
+  },
+  {
+    "console_command": "00260DFA",
+    "description": "Antimicrobial (Root)"
+  },
+  {
+    "console_command": "00260DF7",
+    "description": "Antimicrobial (Sap)"
+  },
+  {
+    "console_command": "00250DF8",
+    "description": "Antimicrobial (Seed)"
+  },
+  {
+    "console_command": "00260DFC",
+    "description": "Antimicrobial (Stalk)"
+  },
+  {
+    "console_command": "0024F5BF",
+    "description": "Antimicrobial (Tissue)"
+  },
+  {
+    "console_command": "0024F5C1",
+    "description": "Antimicrobial (Vital Fluids)"
+  },
+  {
+    "console_command": "0000557B",
+    "description": "Antimony"
+  },
+  {
+    "console_command": "00005588",
+    "description": "Argon"
+  },
+  {
+    "console_command": "000055B8",
+    "description": "Aromatic"
+  },
+  {
+    "console_command": "002612B3",
+    "description": "Aromatic (Bone)"
+  },
+  {
+    "console_command": "002612AF",
+    "description": "Aromatic (Carapace)"
+  },
+  {
+    "console_command": "00260DDC",
+    "description": "Aromatic (Flower)"
+  },
+  {
+    "console_command": "002612B2",
+    "description": "Aromatic (Gland)"
+  },
+  {
+    "console_command": "002612AE",
+    "description": "Aromatic (Hide)"
+  },
+  {
+    "console_command": "00260DDB",
+    "description": "Aromatic (Leaf)"
+  },
+  {
+    "console_command": "00260DDA",
+    "description": "Aromatic (Root)"
+  },
+  {
+    "console_command": "00260DD9",
+    "description": "Aromatic (Sap)"
+  },
+  {
+    "console_command": "00260DD8",
+    "description": "Aromatic (Seed)"
+  },
+  {
+    "console_command": "002612B1",
+    "description": "Aromatic (Tissue)"
+  },
+  {
+    "console_command": "002612B0",
+    "description": "Aromatic (Vital Fluids)"
+  },
+  {
+    "console_command": "00246B7C",
+    "description": "Austenitic Manifold"
+  },
+  {
+    "console_command": "00005585",
+    "description": "Benzene"
+  },
+  {
+    "console_command": "000057D9",
+    "description": "Beryllium"
+  },
+  {
+    "console_command": "000055B2",
+    "description": "Biosuppressant"
+  },
+  {
+    "console_command": "00261274",
+    "description": "Biosuppressant (Bone)"
+  },
+  {
+    "console_command": "00261273",
+    "description": "Biosuppressant (Carapace)"
+  },
+  {
+    "console_command": "00260D67",
+    "description": "Biosuppressant (Flower)"
+  },
+  {
+    "console_command": "00261271",
+    "description": "Biosuppressant (Gland)"
+  },
+  {
+    "console_command": "00261270",
+    "description": "Biosuppressant (Hide)"
+  },
+  {
+    "console_command": "00260D66",
+    "description": "Biosuppressant (Leaf)"
+  },
+  {
+    "console_command": "00260D65",
+    "description": "Biosuppressant (Root)"
+  },
+  {
+    "console_command": "00260D64",
+    "description": "Biosuppressant (Sap)"
+  },
+  {
+    "console_command": "00260D63",
+    "description": "Biosuppressant (Seed)"
+  },
+  {
+    "console_command": "00260D62",
+    "description": "Biosuppressant (Stalk)"
+  },
+  {
+    "console_command": "0026126E",
+    "description": "Biosuppressant (Tissue)"
+  },
+  {
+    "console_command": "00261272",
+    "description": "Biosuppressant (Vital Fluids)"
+  },
+  {
+    "console_command": "00101273",
+    "description": "Bulk Tranquilitea Breakfast"
+  },
+  {
+    "console_command": "000B2EE4",
+    "description": "Bulk Tranquilitea Classic"
+  },
+  {
+    "console_command": "0010FA05",
+    "description": "Bulk Tranquilitea Chamomile"
+  },
+  {
+    "console_command": "00097F0B",
+    "description": "Bulk Tranquilitea Dynastic"
+  },
+  {
+    "console_command": "00097F0D",
+    "description": "Bulk Tranquilitea Earl Grey"
+  },
+  {
+    "console_command": "00120D33",
+    "description": "Bulk Tranquilitea Lemon"
+  },
+  {
+    "console_command": "00101274",
+    "description": "Bulk Tranquilitea Lotus"
+  },
+  {
+    "console_command": "00097F0C",
+    "description": "Bulk Tranquilitea Sleepy"
+  },
+  {
+    "console_command": "000F2C84",
+    "description": "Bulk Tranquilitea Sunray"
+  },
+  {
+    "console_command": "000057DF",
+    "description": "Caesium"
+  },
+  {
+    "console_command": "00005586",
+    "description": "Carboxylic Acids"
+  },
+  {
+    "console_command": "0013BD9C",
+    "description": "Chasmbass Oil"
+  },
+  {
+    "console_command": "000557C",
+    "description": "Chlorine"
+  },
+  {
+    "console_command": "0000557E",
+    "description": "Chlorosilanes"
+  },
+  {
+    "console_command": "0000557D",
+    "description": "Cobalt"
+  },
+  {
+    "console_command": "0025B0FB",
+    "description": "Coffee Bag"
+  },
+  {
+    "console_command": "00246B64",
+    "description": "Comm Relay"
+  },
+  {
+    "console_command": "00246B7B",
+    "description": "Control Rod"
+  },
+  {
+    "console_command": "00005576",
+    "description": "Copper"
+  },
+  {
+    "console_command": "000055A8",
+    "description": "Cosmetic"
+  },
+  {
+    "console_command": "002612AD",
+    "description": "Cosmetic (Bone)"
+  },
+  {
+    "console_command": "002612AC",
+    "description": "Cosmetic (Carapace)"
+  },
+  {
+    "console_command": "00260DD7",
+    "description": "Cosmetic (Flower)"
+  },
+  {
+    "console_command": "002612AA",
+    "description": "Cosmetic (Gland)"
+  },
+  {
+    "console_command": "002612A9",
+    "description": "Cosmetic (Hide)"
+  },
+  {
+    "console_command": "00260DD6",
+    "description": "Cosmetic (Leaf)"
+  },
+  {
+    "console_command": "00260DD5",
+    "description": "Cosmetic (Root)"
+  },
+  {
+    "console_command": "00260DD4",
+    "description": "Cosmetic (Sap)"
+  },
+  {
+    "console_command": "00260DD3",
+    "description": "Cosmetic (Seed)"
+  },
+  {
+    "console_command": "00260DD2",
+    "description": "Cosmetic (Stalk)"
+  },
+  {
+    "console_command": "002612A8",
+    "description": "Cosmetic (Tissue)"
+  },
+  {
+    "console_command": "002612AB",
+    "description": "Cosmetic (Vital Fluids)"
+  },
+  {
+    "console_command": "0020A02F",
+    "description": "Drilling Rig"
+  },
+  {
+    "console_command": "00005569",
+    "description": "Dysprosium"
+  },
+  {
+    "console_command": "000057E1",
+    "description": "Europium"
+  },
+  {
+    "console_command": "000055AF",
+    "description": "Fiber"
+  },
+  {
+    "console_command": "002612C2",
+    "description": "Fiber (Bone)"
+  },
+  {
+    "console_command": "002612C3",
+    "description": "Fiber (Carapace)"
+  },
+  {
+    "console_command": "0024F5C4",
+    "description": "Fiber (Hide)"
+  },
+  {
+    "console_command": "00260DEE",
+    "description": "Fiber (Leaf)"
+  },
+  {
+    "console_command": "00260DF0",
+    "description": "Fiber (Root)"
+  },
+  {
+    "console_command": "0024F5C3",
+    "description": "Fiber (Tissue)"
+  },
+  {
+    "console_command": "00005577",
+    "description": "Fluorine"
+  },
+  {
+    "console_command": "00005579",
+    "description": "Gold"
+  },
+  {
+    "console_command": "0029F405",
+    "description": "Hallucinogen"
+  },
+  {
+    "console_command": "00261283",
+    "description": "Hallucinogen (Bone)"
+  },
+  {
+    "console_command": "00261282",
+    "description": "Hallucinogen (Carapace)"
+  },
+  {
+    "console_command": "00260D76",
+    "description": "Hallucinogen (Flower)"
+  },
+  {
+    "console_command": "00261280",
+    "description": "Hallucinogen (Gland)"
+  },
+  {
+    "console_command": "0026127F",
+    "description": "Hallucinogen (Hide)"
+  },
+  {
+    "console_command": "00260D75",
+    "description": "Hallucinogen (Leaf)"
+  },
+  {
+    "console_command": "00260D74",
+    "description": "Hallucinogen (Root)"
+  },
+  {
+    "console_command": "00260D73",
+    "description": "Hallucinogen (Sap)"
+  },
+  {
+    "console_command": "00260D72",
+    "description": "Hallucinogen (Seed)"
+  },
+  {
+    "console_command": "00260D71",
+    "description": "Hallucinogen (Stalk)"
+  },
+  {
+    "console_command": "0026127E",
+    "description": "Hallucinogen (Tissue)"
+  },
+  {
+    "console_command": "00261281",
+    "description": "Hallucinogen (Vital Fluids)"
+  },
+  {
+    "console_command": "0000558E",
+    "description": "Helium-3"
+  },
+  {
+    "console_command": "0029F40D",
+    "description": "Hypercatalyst"
+  },
+  {
+    "console_command": "0026126F",
+    "description": "Hypercatalyst (Bone)"
+  },
+  {
+    "console_command": "0026126D",
+    "description": "Hypercatalyst (Carapace)"
+  },
+  {
+    "console_command": "00260D61",
+    "description": "Hypercatalyst (Flower)"
+  },
+  {
+    "console_command": "0026126B",
+    "description": "Hypercatalyst (Gland)"
+  },
+  {
+    "console_command": "0026126A",
+    "description": "Hypercatalyst (Hide)"
+  },
+  {
+    "console_command": "00260D60",
+    "description": "Hypercatalyst (Leaf)"
+  },
+  {
+    "console_command": "00260D5F",
+    "description": "Hypercatalyst (Root)"
+  },
+  {
+    "console_command": "00260D30",
+    "description": "Hypercatalyst (Sap)"
+  },
+  {
+    "console_command": "00260D25",
+    "description": "Hypercatalyst (Seed)"
+  },
+  {
+    "console_command": "00260D0C",
+    "description": "Hypercatalyst (Stalk)"
+  },
+  {
+    "console_command": "00261269",
+    "description": "Hypercatalyst (Tissue)"
+  },
+  {
+    "console_command": "0026126C",
+    "description": "Hypercatalyst (Vital Fluids)"
+  },
+  {
+    "console_command": "000055B3",
+    "description": "Immunostimulant"
+  },
+  {
+    "console_command": "0004BA37",
+    "description": "Indicite"
+  },
+  {
+    "console_command": "00203EB4",
+    "description": "Indicite Wafer"
+  },
+  {
+    "console_command": "0000557A",
+    "description": "Ionic Liquids"
+  },
+  {
+    "console_command": "0000558A",
+    "description": "Iridium"
+  },
+  {
+    "console_command": "0000556E",
+    "description": "Iron"
+  },
+  {
+    "console_command": "00246B77",
+    "description": "Isocentered Magnet"
+  },
+  {
+    "console_command": "00246B76",
+    "description": "Isotopic Coolant"
+  },
+  {
+    "console_command": "00005568",
+    "description": "Lead"
+  },
+  {
+    "console_command": "0000557F",
+    "description": "Lithium"
+  },
+  {
+    "console_command": "000055BA",
+    "description": "Lubricant"
+  },
+  {
+    "console_command": "00260D0B",
+    "description": "Lubricant (Flower)"
+  },
+  {
+    "console_command": "00261267",
+    "description": "Lubricant (Gland)"
+  },
+  {
+    "console_command": "00261266",
+    "description": "Lubricant (Hide)"
+  },
+  {
+    "console_command": "00260D0A",
+    "description": "Lubricant (Leaf)"
+  },
+  {
+    "console_command": "00260CE2",
+    "description": "Lubricant (Root)"
+  },
+  {
+    "console_command": "00260CB6",
+    "description": "Lubricant (Sap)"
+  },
+  {
+    "console_command": "00260C79",
+    "description": "Lubricant (Seed)"
+  },
+  {
+    "console_command": "00260C74",
+    "description": "Lubricant (Stalk)"
+  },
+  {
+    "console_command": "00261265",
+    "description": "Lubricant (Tissue)"
+  },
+  {
+    "console_command": "00261268",
+    "description": "Lubricant (Vital Fluids)"
+  },
+  {
+    "console_command": "0000559E",
+    "description": "Luxury Textile"
+  },
+  {
+    "console_command": "00246B70",
+    "description": "Mag Pressure Tank"
+  },
+  {
+    "console_command": "000055B0",
+    "description": "Membrane"
+  },
+  {
+    "console_command": "002612A7",
+    "description": "Membrane (Carapace)"
+  },
+  {
+    "console_command": "00260DD1",
+    "description": "Membrane (Flower)"
+  },
+  {
+    "console_command": "002612A6",
+    "description": "Membrane (Gland)"
+  },
+  {
+    "console_command": "002612A5",
+    "description": "Membrane (Hide)"
+  },
+  {
+    "console_command": "00260DD0",
+    "description": "Membrane (Leaf)"
+  },
+  {
+    "console_command": "00260DCF",
+    "description": "Membrane (Root)"
+  },
+  {
+    "console_command": "00260DCE",
+    "description": "Membrane (Stalk)"
+  },
+  {
+    "console_command": "002612A4",
+    "description": "Membrane (Tissue)"
+  },
+  {
+    "console_command": "0027C4A1",
+    "description": "Mercury"
+  },
+  {
+    "console_command": "0029F3FC",
+    "description": "Metabolic Agent"
+  },
+  {
+    "console_command": "002612C1",
+    "description": "Metabolic Agent (Bone)"
+  },
+  {
+    "console_command": "002612C0",
+    "description": "Metabolic Agent (Carapace)"
+  },
+  {
+    "console_command": "00260DEC",
+    "description": "Metabolic Agent (Flower)"
+  },
+  {
+    "console_command": "002612BF",
+    "description": "Metabolic Agent (Gland)"
+  },
+  {
+    "console_command": "002612BE",
+    "description": "Metabolic Agent (Hide)"
+  },
+  {
+    "console_command": "00260DEB",
+    "description": "Metabolic Agent (Leaf)"
+  },
+  {
+    "console_command": "00260DEA",
+    "description": "Metabolic Agent (Root)"
+  },
+  {
+    "console_command": "00260DE9",
+    "description": "Metabolic Agent (Sap)"
+  },
+  {
+    "console_command": "00260DE8",
+    "description": "Metabolic Agent (Seed)"
+  },
+  {
+    "console_command": "00260DED",
+    "description": "Metabolic Agent (Stalk)"
+  },
+  {
+    "console_command": "0029F3F8",
+    "description": "Metabolic Agent (Tissue)"
+  },
+  {
+    "console_command": "0029F3F9",
+    "description": "Metabolic Agent (Vital Fluids)"
+  },
+  {
+    "console_command": "00246B5F",
+    "description": "Microsecond Regulator"
+  },
+  {
+    "console_command": "00246B75",
+    "description": "Molecular Sieve"
+  },
+  {
+    "console_command": "00246B74",
+    "description": "Monopropellant"
+  },
+  {
+    "console_command": "00005580",
+    "description": "Neodymium"
+  },
+  {
+    "console_command": "00005587",
+    "description": "Neon"
+  },
+  {
+    "console_command": "00005572",
+    "description": "Nickel"
+  },
+  {
+    "console_command": "00246B79",
+    "description": "Nuclear Fuel Rod"
+  },
+  {
+    "console_command": "000777FD",
+    "description": "Nutrient"
+  },
+  {
+    "console_command": "002612C6",
+    "description": "Nutrient (Bone)"
+  },
+  {
+    "console_command": "002612C4",
+    "description": "Nutrient (Carapace)"
+  },
+  {
+    "console_command": "00260DF6",
+    "description": "Nutrient (Flower)"
+  },
+  {
+    "console_command": "002612C5",
+    "description": "Nutrient (Gland)"
+  },
+  {
+    "console_command": "0029F3F6",
+    "description": "Nutrient (Hide)"
+  },
+  {
+    "console_command": "00260DF5",
+    "description": "Nutrient (Leaf)"
+  },
+  {
+    "console_command": "00260DF4",
+    "description": "Nutrient (Root)"
+  },
+  {
+    "console_command": "00260DF3",
+    "description": "Nutrient (Sap)"
+  },
+  {
+    "console_command": "00260DF2",
+    "description": "Nutrient (Seed)"
+  },
+  {
+    "console_command": "00260DF1",
+    "description": "Nutrient (Stalk)"
+  },
+  {
+    "console_command": "0024F5C2",
+    "description": "Nutrient (Tissue)"
+  },
+  {
+    "console_command": "0029F3F7",
+    "description": "Nutrient (Vital Fluids)"
+  },
+  {
+    "console_command": "002612BD",
+    "description": "Ornamental (Bone)"
+  },
+  {
+    "console_command": "002612BC",
+    "description": "Ornamental (Carapace)"
+  },
+  {
+    "console_command": "00260DE7",
+    "description": "Ornamental (Flower)"
+  },
+  {
+    "console_command": "002612B9",
+    "description": "Ornamental (Gland)"
+  },
+  {
+    "console_command": "002612BA",
+    "description": "Ornamental (Hide)"
+  },
+  {
+    "console_command": "00260DE6",
+    "description": "Ornamental (Leaf)"
+  },
+  {
+    "console_command": "00260DE5",
+    "description": "Ornamental (Root)"
+  },
+  {
+    "console_command": "00260DE4",
+    "description": "Ornamental (Sap)"
+  },
+  {
+    "console_command": "00260DE3",
+    "description": "Ornamental (Seed)"
+  },
+  {
+    "console_command": "00260DE2",
+    "description": "Ornamental (Stalk)"
+  },
+  {
+    "console_command": "002612B8",
+    "description": "Ornamental (Tissue)"
+  },
+  {
+    "console_command": "002612BB",
+    "description": "Ornamental (Vital Fluids)"
+  },
+  {
+    "console_command": "000055A7",
+    "description": "Ornamental Material"
+  },
+  {
+    "console_command": "00005574",
+    "description": "Palladium"
+  },
+  {
+    "console_command": "00246B73",
+    "description": "Paramagnon Conductor"
+  },
+  {
+    "console_command": "0029F400",
+    "description": "Pigment"
+  },
+  {
+    "console_command": "002612A3",
+    "description": "Pigment (Bone)"
+  },
+  {
+    "console_command": "002612A2",
+    "description": "Pigment (Carapace)"
+  },
+  {
+    "console_command": "00260DCD",
+    "description": "Pigment (Flower)"
+  },
+  {
+    "console_command": "002612A0",
+    "description": "Pigment (Gland)"
+  },
+  {
+    "console_command": "0026129F",
+    "description": "Pigment (Hide)"
+  },
+  {
+    "console_command": "00260DCC",
+    "description": "Pigment (Leaf)"
+  },
+  {
+    "console_command": "00260DCB",
+    "description": "Pigment (Root)"
+  },
+  {
+    "console_command": "00260DCA",
+    "description": "Pigment (Sap)"
+  },
+  {
+    "console_command": "00260DC9",
+    "description": "Pigment (Seed)"
+  },
+  {
+    "console_command": "00260DC8",
+    "description": "Pigment (Stalk)"
+  },
+  {
+    "console_command": "0026129E",
+    "description": "Pigment (Tissue)"
+  },
+  {
+    "console_command": "002612A1",
+    "description": "Pigment (Vital Fluids)"
+  },
+  {
+    "console_command": "00005573",
+    "description": "Platinum"
+  },
+  {
+    "console_command": "000055A6",
+    "description": "Polymer"
+  },
+  {
+    "console_command": "0026125E",
+    "description": "Polymer (Bone)"
+  },
+  {
+    "console_command": "0026125D",
+    "description": "Polymer (Carapace)"
+  },
+  {
+    "console_command": "00260C3B",
+    "description": "Polymer (Flower)"
+  },
+  {
+    "console_command": "0026125B",
+    "description": "Polymer (Gland)"
+  },
+  {
+    "console_command": "0026125A",
+    "description": "Polymer (Hide)"
+  },
+  {
+    "console_command": "00260C38",
+    "description": "Polymer (Leaf)"
+  },
+  {
+    "console_command": "00260C36",
+    "description": "Polymer (Root)"
+  },
+  {
+    "console_command": "00260C2D",
+    "description": "Polymer (Sap)"
+  },
+  {
+    "console_command": "00260C1C",
+    "description": "Polymer (Seed)"
+  },
+  {
+    "console_command": "00260BFF",
+    "description": "Polymer (Stalk)"
+  },
+  {
+    "console_command": "00261259",
+    "description": "Polymer (Tissue)"
+  },
+  {
+    "console_command": "0026125C",
+    "description": "Polymer (Vital Fluids)"
+  },
+  {
+    "console_command": "00246B72",
+    "description": "Polytextile"
+  },
+  {
+    "console_command": "00246B71",
+    "description": "Positron Battery"
+  },
+  {
+    "console_command": "00246B5C",
+    "description": "Power Circuit"
+  },
+  {
+    "console_command": "00122EB8",
+    "description": "Quark-Degenerate Tissues"
+  },
+  {
+    "console_command": "00246B6F",
+    "description": "Reactive Gauge"
+  },
+  {
+    "console_command": "000028DF",
+    "description": "Rothicite"
+  },
+  {
+    "console_command": "00203EB2",
+    "description": "Rothicite Magnet"
+  },
+  {
+    "console_command": "000055CC",
+    "description": "Sealant"
+  },
+  {
+    "console_command": "0026129D",
+    "description": "Sealant (Carapace)"
+  },
+  {
+    "console_command": "00260DC7",
+    "description": "Sealant (Flower)"
+  },
+  {
+    "console_command": "0026129C",
+    "description": "Sealant (Gland)"
+  },
+  {
+    "console_command": "002AB397",
+    "description": "Sealant (Hide)"
+  },
+  {
+    "console_command": "00260DC6",
+    "description": "Sealant (Leaf)"
+  },
+  {
+    "console_command": "00260DC5",
+    "description": "Sealant (Root)"
+  },
+  {
+    "console_command": "00260DC4",
+    "description": "Sealant (Sap)"
+  },
+  {
+    "console_command": "00260DC3",
+    "description": "Sealant (Seed)"
+  },
+  {
+    "console_command": "00260DC2",
+    "description": "Sealant (Stalk)"
+  },
+  {
+    "console_command": "002AB399",
+    "description": "Sealant (Tissue)"
+  },
+  {
+    "console_command": "002AB398",
+    "description": "Sealant (Vital Fluids)"
+  },
+  {
+    "console_command": "000055AD",
+    "description": "Sedative"
+  },
+  {
+    "console_command": "0026127D",
+    "description": "Sedative (Bone)"
+  },
+  {
+    "console_command": "0026127C",
+    "description": "Sedative (Carapace)"
+  },
+  {
+    "console_command": "00260D70",
+    "description": "Sedative (Flower)"
+  },
+  {
+    "console_command": "0026127A",
+    "description": "Sedative (Gland)"
+  },
+  {
+    "console_command": "00260D6F",
+    "description": "Sedative (Leaf)"
+  },
+  {
+    "console_command": "00260D6E",
+    "description": "Sedative (Root)"
+  },
+  {
+    "console_command": "00260D6D",
+    "description": "Sedative (Sap)"
+  },
+  {
+    "console_command": "00260D6C",
+    "description": "Sedative (Seed)"
+  },
+  {
+    "console_command": "00260D6B",
+    "description": "Sedative (Stalk)"
+  },
+  {
+    "console_command": "00261278",
+    "description": "Sedative (Tissue)"
+  },
+  {
+    "console_command": "0026127B",
+    "description": "Sedative (Vital Fluids)"
+  },
+  {
+    "console_command": "00246B6D",
+    "description": "Semimetal Wafer"
+  },
+  {
+    "console_command": "0000556A",
+    "description": "Silver"
+  },
+  {
+    "console_command": "000055CE",
+    "description": "Solvent"
+  },
+  {
+    "console_command": "00260BF7",
+    "description": "Solvent (Flower)"
+  },
+  {
+    "console_command": "00261257",
+    "description": "Solvent (Gland)"
+  },
+  {
+    "console_command": "00260BF6",
+    "description": "Solvent (Leaf)"
+  },
+  {
+    "console_command": "00260BF5",
+    "description": "Solvent (Root)"
+  },
+  {
+    "console_command": "00260BF4",
+    "description": "Solvent (Sap)"
+  },
+  {
+    "console_command": "00260BF3",
+    "description": "Solvent (Seed)"
+  },
+  {
+    "console_command": "00260BF2",
+    "description": "Solvent (Stalk)"
+  },
+  {
+    "console_command": "00261256",
+    "description": "Solvent (Tissue)"
+  },
+  {
+    "console_command": "00261258",
+    "description": "Solvent (Vital Fluids)"
+  },
+  {
+    "console_command": "000055AC",
+    "description": "Spice"
+  },
+  {
+    "console_command": "0026129B",
+    "description": "Spice (Bone)"
+  },
+  {
+    "console_command": "0026129A",
+    "description": "Spice (Carapace)"
+  },
+  {
+    "console_command": "00260DC1",
+    "description": "Spice (Flower)"
+  },
+  {
+    "console_command": "00261298",
+    "description": "Spice (Gland)"
+  },
+  {
+    "console_command": "00261297",
+    "description": "Spice (Hide)"
+  },
+  {
+    "console_command": "00260DC0",
+    "description": "Spice (Leaf)"
+  },
+  {
+    "console_command": "00260DBF",
+    "description": "Spice (Root)"
+  },
+  {
+    "console_command": "00260DBE",
+    "description": "Spice (Sap)"
+  },
+  {
+    "console_command": "00260DBD",
+    "description": "Spice (Seed)"
+  },
+  {
+    "console_command": "00260DBC",
+    "description": "Spice (Stalk)"
+  },
+  {
+    "console_command": "00261296",
+    "description": "Spice (Tissue)"
+  },
+  {
+    "console_command": "00261299",
+    "description": "Spice (Vital Fluids)"
+  },
+  {
+    "console_command": "00246B6C",
+    "description": "Sterile Nanotubes"
+  },
+  {
+    "console_command": "000055AE",
+    "description": "Stimulant"
+  },
+  {
+    "console_command": "00261264",
+    "description": "Stimulant (Bone)"
+  },
+  {
+    "console_command": "00261263",
+    "description": "Stimulant (Carapace)"
+  },
+  {
+    "console_command": "00260C66",
+    "description": "Stimulant (Flower)"
+  },
+  {
+    "console_command": "00261260",
+    "description": "Stimulant (Gland)"
+  },
+  {
+    "console_command": "00261261",
+    "description": "Stimulant (Hide)"
+  },
+  {
+    "console_command": "00260C66",
+    "description": "Stimulant (Leaf)"
+  },
+  {
+    "console_command": "00260C5C",
+    "description": "Stimulant (Root)"
+  },
+  {
+    "console_command": "00260C3F",
+    "description": "Stimulant (Sap)"
+  },
+  {
+    "console_command": "00260C3E",
+    "description": "Stimulant (Seed)"
+  },
+  {
+    "console_command": "00260C3C",
+    "description": "Stimulant (Stalk)"
+  },
+  {
+    "console_command": "0026125F",
+    "description": "Stimulant (Tissue)"
+  },
+  {
+    "console_command": "00261262",
+    "description": "Stimulant (Vital Fluids)"
+  },
+  {
+    "console_command": "000055B9",
+    "description": "Structural Material"
+  },
+  {
+    "console_command": "00202782",
+    "description": "Substrate Molecule Sieve"
+  },
+  {
+    "console_command": "00246B69",
+    "description": "Supercooled Magnet"
+  },
+  {
+    "console_command": "0000556F",
+    "description": "Tantalum"
+  },
+  {
+    "console_command": "00005DED",
+    "description": "Tasine"
+  },
+  {
+    "console_command": "00203EAF",
+    "description": "Tasine Superconductor"
+  },
+  {
+    "console_command": "00246B68",
+    "description": "Tau Grade Rheostat"
+  },
+  {
+    "console_command": "00005578",
+    "description": "Tetrafluorides"
+  },
+  {
+    "console_command": "0000556D",
+    "description": "Titanium"
+  },
+  {
+    "console_command": "000055CB",
+    "description": "Toxin"
+  },
+  {
+    "console_command": "002612B7",
+    "description": "Toxin (Bone)"
+  },
+  {
+    "console_command": "002612B6",
+    "description": "Toxin (Carapace)"
+  },
+  {
+    "console_command": "00260DE1",
+    "description": "Toxin (Flower)"
+  },
+  {
+    "console_command": "002612B5",
+    "description": "Toxin (Gland)"
+  },
+  {
+    "console_command": "002612B4",
+    "description": "Toxin (Hide)"
+  },
+  {
+    "console_command": "00260DE0",
+    "description": "Toxin (Leaf)"
+  },
+  {
+    "console_command": "00260DDF",
+    "description": "Toxin (Root)"
+  },
+  {
+    "console_command": "00260DDE",
+    "description": "Toxin (Sap)"
+  },
+  {
+    "console_command": "00260DDD",
+    "description": "Toxin (Seed)"
+  },
+  {
+    "console_command": "0024F5C5",
+    "description": "Toxin (Tissue)"
+  },
+  {
+    "console_command": "0024F5C6",
+    "description": "Toxin (Vital Fluids)"
+  },
+  {
+    "console_command": "0028E7AB",
+    "description": "Tranquilitea Breakfast Pack"
+  },
+  {
+    "console_command": "0028E7AC",
+    "description": "Tranquilitea Classic Pack"
+  },
+  {
+    "console_command": "00188248",
+    "description": "Tranquilitea Chamomile Pack"
+  },
+  {
+    "console_command": "001557FD",
+    "description": "Tranquilitea Dynastic Pack"
+  },
+  {
+    "console_command": "001557F5",
+    "description": "Tranquilitea Earl Gray Pack"
+  },
+  {
+    "console_command": "001346D9",
+    "description": "Tranquilitea Lemon Pack"
+  },
+  {
+    "console_command": "00110F93",
+    "description": "Tranquilitea Lotus Pack"
+  },
+  {
+    "console_command": "00094733",
+    "description": "Tranquilitea Sleepy Pack"
+  },
+  {
+    "console_command": "00094732",
+    "description": "Tranquilitea Sunray Pack"
+  },
+  {
+    "console_command": "000556B",
+    "description": "Tungsten"
+  },
+  {
+    "console_command": "00005589",
+    "description": "Uranium"
+  },
+  {
+    "console_command": "0000558B",
+    "description": "Vanadium"
+  },
+  {
+    "console_command": "00005DEE",
+    "description": "Veryl"
+  },
+  {
+    "console_command": "00203EB0",
+    "description": "Veryl-Treated Manifold"
+  },
+  {
+    "console_command": "00203EBD",
+    "description": "Veryl Explosive"
+  },
+  {
+    "console_command": "00005DEF",
+    "description": "Vytinium"
+  },
+  {
+    "console_command": "00203EB3",
+    "description": "Vytinium Fuel Rod"
+  },
+  {
+    "console_command": "00005591",
+    "description": "Water"
+  },
+  {
+    "console_command": "000057DD",
+    "description": "Xenon"
+  },
+  {
+    "console_command": "00005571",
+    "description": "Ytterbium"
+  },
+  {
+    "console_command": "00246B65",
+    "description": "Zero Wire"
+  },
+  {
+    "console_command": "00246B66",
+    "description": "Zero-G Gimbal"
+  },
+  {
+    "console_command": "ID Code",
+    "description": "Mineral Name"
+  },
+  {
+    "console_command": "00005DEC",
+    "description": "Aldumite"
+  },
+  {
+    "console_command": "0000557D",
+    "description": "Aluminum"
+  },
+  {
+    "console_command": "0000557B",
+    "description": "Antimony"
+  },
+  {
+    "console_command": "000057D9",
+    "description": "Beryllium"
+  },
+  {
+    "console_command": "000788D6",
+    "description": "Caelumite"
+  },
+  {
+    "console_command": "00005575",
+    "description": "Cobalt"
+  },
+  {
+    "console_command": "00005576",
+    "description": "Copper"
+  },
+  {
+    "console_command": "00005569",
+    "description": "Dysprosium"
+  },
+  {
+    "console_command": "000057E1",
+    "description": "Europium"
+  },
+  {
+    "console_command": "00005579",
+    "description": "Gold"
+  },
+  {
+    "console_command": "0004BA37",
+    "description": "Indicite"
+  },
+  {
+    "console_command": "0000558A",
+    "description": "Iridium"
+  },
+  {
+    "console_command": "0000556E",
+    "description": "Iron"
+  },
+  {
+    "console_command": "00005568",
+    "description": "Lead"
+  },
+  {
+    "console_command": "0000557F",
+    "description": "Lithium"
+  },
+  {
+    "console_command": "00005580",
+    "description": "Neodymium"
+  },
+  {
+    "console_command": "00005572",
+    "description": "Nickel"
+  },
+  {
+    "console_command": "00005574",
+    "description": "Palladium"
+  },
+  {
+    "console_command": "00005573",
+    "description": "Platinum"
+  },
+  {
+    "console_command": "0000558C",
+    "description": "Plutonium"
+  },
+  {
+    "console_command": "0000556A",
+    "description": "Silver"
+  },
+  {
+    "console_command": "0000556D",
+    "description": "Titanium"
+  },
+  {
+    "console_command": "00005589",
+    "description": "Uranium"
+  },
+  {
+    "console_command": "0000558B",
+    "description": "Vanadium"
+  },
+  {
+    "console_command": "00005DEF",
+    "description": "Vytinium"
+  },
+  {
+    "item_id": "ID Code",
+    "item_name": "Ship Name",
+    "command_example": "Class"
+  },
+  {
+    "item_id": "0000B730",
+    "item_name": "Frontier",
+    "command_example": "A"
+  },
+  {
+    "item_id": "0002CC6C",
+    "item_name": "Razorleaf",
+    "command_example": "A"
+  },
+  {
+    "item_id": "001322D8",
+    "item_name": "Star Eagle",
+    "command_example": "A"
+  },
+  {
+    "item_id": "00180F18",
+    "item_name": "Starborn Guardian",
+    "command_example": "A"
+  },
+  {
+    "item_id": "001E29E5",
+    "item_name": "UC Prison Shuttle",
+    "command_example": "A"
+  },
+  {
+    "item_id": "00038B42",
+    "item_name": "Wanderwell",
+    "command_example": "A"
+  },
+  {
+    "item_id": "ID Code",
+    "item_name": "Ship Name",
+    "command_example": "Class"
+  },
+  {
+    "item_id": "000F31DB",
+    "item_name": "Abyss Trekker",
+    "command_example": "C"
+  },
+  {
+    "item_id": "003A2E83",
+    "item_name": "Achilles",
+    "command_example": "A"
+  },
+  {
+    "item_id": "000F3078",
+    "item_name": "Aegis",
+    "command_example": "B"
+  },
+  {
+    "item_id": "0038D65C",
+    "item_name": "Autobahn",
+    "command_example": "C"
+  },
+  {
+    "item_id": "001E0528",
+    "item_name": "Big Rig",
+    "command_example": "B"
+  },
+  {
+    "item_id": "0038239C",
+    "item_name": "Bireme",
+    "command_example": "B"
+  },
+  {
+    "item_id": "0038D656",
+    "item_name": "Civshuttle",
+    "command_example": "C"
+  },
+  {
+    "item_id": "0031DF00",
+    "item_name": "Crimson Fleet Ghost",
+    "command_example": "A"
+  },
+  {
+    "item_id": "0031DF60",
+    "item_name": "Crimson Fleet Haunt",
+    "command_example": "A"
+  },
+  {
+    "item_id": "00322BE1",
+    "item_name": "Crimson Fleet Phantom",
+    "command_example": "A"
+  },
+  {
+    "item_id": "002E7461",
+    "item_name": "Discovery",
+    "command_example": "A"
+  },
+  {
+    "item_id": "003A2E11",
+    "item_name": "Dragonfire",
+    "command_example": "C"
+  },
+  {
+    "item_id": "003A2E0B",
+    "item_name": "Dullahan",
+    "command_example": "C"
+  },
+  {
+    "item_id": "002CE40B",
+    "item_name": "Econohaul",
+    "command_example": "A"
+  },
+  {
+    "item_id": "002E753C",
+    "item_name": "Falcon",
+    "command_example": "B"
+  },
+  {
+    "item_id": "0021CEAD",
+    "item_name": "Galileo",
+    "command_example": "A"
+  },
+  {
+    "item_id": "00147C8D",
+    "item_name": "Gladius",
+    "command_example": "A"
+  },
+  {
+    "item_id": "001A7F69",
+    "item_name": "Hammerhead",
+    "command_example": "B"
+  },
+  {
+    "item_id": "000D5575",
+    "item_name": "Hoplite",
+    "command_example": "B"
+  },
+  {
+    "item_id": "0038895D",
+    "item_name": "Kfir",
+    "command_example": "A"
+  },
+  {
+    "item_id": "0021C44B",
+    "item_name": "Longsword",
+    "command_example": "A"
+  },
+  {
+    "item_id": "001EB556",
+    "item_name": "Mako",
+    "command_example": "A"
+  },
+  {
+    "item_id": "000F2C63",
+    "item_name": "Marathon",
+    "command_example": "A"
+  },
+  {
+    "item_id": "003A2E8F",
+    "item_name": "MULE",
+    "command_example": "A"
+  },
+  {
+    "item_id": "000F31C5",
+    "item_name": "Murasame",
+    "command_example": "B"
+  },
+  {
+    "item_id": "00388965",
+    "item_name": "Mustang",
+    "command_example": "A"
+  },
+  {
+    "item_id": "003A2E41",
+    "item_name": "Naginata",
+    "command_example": "B"
+  },
+  {
+    "item_id": "0020C644",
+    "item_name": "Narcissus",
+    "command_example": "A"
+  },
+  {
+    "item_id": "000F3076",
+    "item_name": "Narwhal",
+    "command_example": "C"
+  },
+  {
+    "item_id": "0038234D",
+    "item_name": "Orca",
+    "command_example": "C"
+  },
+  {
+    "item_id": "001E052A",
+    "item_name": "Pik Up",
+    "command_example": "A"
+  },
+  {
+    "item_id": "0037F546",
+    "item_name": "Privateer",
+    "command_example": "B"
+  },
+  {
+    "item_id": "003A2E3B",
+    "item_name": "Pterosaur",
+    "command_example": "B"
+  },
+  {
+    "item_id": "00042372",
+    "item_name": "Rambler",
+    "command_example": "A"
+  },
+  {
+    "item_id": "0033A1C6",
+    "item_name": "Ranger",
+    "command_example": "B"
+  },
+  {
+    "item_id": "003A2E6B",
+    "item_name": "Responder",
+    "command_example": "A"
+  },
+  {
+    "item_id": "0021CEAB",
+    "item_name": "Roanoke",
+    "command_example": "B"
+  },
+  {
+    "item_id": "000F31C7",
+    "item_name": "Shackleton",
+    "command_example": "B"
+  },
+  {
+    "item_id": "000F2DBE",
+    "item_name": "Shieldbreaker",
+    "command_example": "B"
+  },
+  {
+    "item_id": "000F2E5B",
+    "item_name": "Silent Runner",
+    "command_example": "C"
+  },
+  {
+    "item_id": "000FAFE8",
+    "item_name": "Slipstream",
+    "command_example": "B"
+  },
+  {
+    "item_id": "0036D871",
+    "item_name": "Space OX",
+    "command_example": "B"
+  },
+  {
+    "item_id": "00215E9B",
+    "item_name": "Sparrow",
+    "command_example": "A"
+  },
+  {
+    "item_id": "003A2E35",
+    "item_name": "Star Hawk",
+    "command_example": "B"
+  },
+  {
+    "item_id": "0003CFB2",
+    "item_name": "Star Semi",
+    "command_example": "C"
+  },
+  {
+    "item_id": "000F31E4",
+    "item_name": "Stronghold",
+    "command_example": "C"
+  },
+  {
+    "item_id": "003A2E1D",
+    "item_name": "Sunsail",
+    "command_example": "B"
+  },
+  {
+    "item_id": "000423AB",
+    "item_name": "Thresher",
+    "command_example": "A"
+  },
+  {
+    "item_id": "00347145",
+    "item_name": "Trade Wagon Train",
+    "command_example": "B"
+  },
+  {
+    "item_id": "003A2E5F",
+    "item_name": "Transpo",
+    "command_example": "A"
+  },
+  {
+    "item_id": "001A39A8",
+    "item_name": "Trebuchet",
+    "command_example": "A"
+  },
+  {
+    "item_id": "000F31CE",
+    "item_name": "Vagabond",
+    "command_example": "A"
+  },
+  {
+    "item_id": "00001E9F",
+    "item_name": "Vanquisher",
+    "command_example": "C"
+  },
+  {
+    "item_id": "0018D3F0",
+    "item_name": "Venture",
+    "command_example": "B"
+  },
+  {
+    "item_id": "0003CF9C",
+    "item_name": "Vindicator",
+    "command_example": "C"
+  },
+  {
+    "item_id": "003A2E47",
+    "item_name": "Wagontrain",
+    "command_example": "B"
+  },
+  {
+    "item_id": "000F31D0",
+    "item_name": "Wanderlust",
+    "command_example": "B"
+  },
+  {
+    "item_id": "000F31C9",
+    "item_name": "War Horse",
+    "command_example": "A"
+  },
+  {
+    "item_id": "0020AFD0",
+    "item_name": "Watchdog",
+    "command_example": "A"
+  },
+  {
+    "item_id": "003A2E71",
+    "item_name": "Wendigo",
+    "command_example": "A"
+  },
+  {
+    "item_id": "0002C88F",
+    "item_name": "Zumwalt",
+    "command_example": "B"
+  },
+  {
+    "console_command": "ID Code",
+    "description": "Faction Name"
+  },
+  {
+    "console_command": "00010B30",
+    "description": "Crimson Fleet"
+  },
+  {
+    "console_command": "0026FDEA",
+    "description": "Neon / Ryujin Industries"
+  },
+  {
+    "console_command": "0005BD93",
+    "description": "United Colonies"
+  },
+  {
+    "console_command": "000638E5",
+    "description": "Freestar Collective"
+  },
+  {
+    "console_command": "ID Code",
+    "description": "Skill Name"
+  },
+  {
+    "console_command": "002C59DF",
+    "description": "Boxing"
+  },
+  {
+    "console_command": "002CE2DD",
+    "description": "Fitness"
+  },
+  {
+    "console_command": "002CFCB2",
+    "description": "Stealth"
+  },
+  {
+    "console_command": "002C59D9",
+    "description": "Weight Lifting"
+  },
+  {
+    "console_command": "002CE2E1",
+    "description": "Wellness"
+  },
+  {
+    "console_command": "002C59E2",
+    "description": "Energy Weapon Dissipation"
+  },
+  {
+    "console_command": "0028AE17",
+    "description": "Environmental Conditioning"
+  },
+  {
+    "console_command": "0028AE29",
+    "description": "Gymnastics"
+  },
+  {
+    "console_command": "002CFCAD",
+    "description": "Nutrition"
+  },
+  {
+    "console_command": "002CFCAE",
+    "description": "Pain Tolerance"
+  },
+  {
+    "console_command": "0028AE14",
+    "description": "Cellular Regeneration"
+  },
+  {
+    "console_command": "002CE2A0",
+    "description": "Decontamination"
+  },
+  {
+    "console_command": "002C5554",
+    "description": "Martial Arts"
+  },
+  {
+    "console_command": "002C555E",
+    "description": "Concealment"
+  },
+  {
+    "console_command": "002C53B4",
+    "description": "Neurostrikes"
+  },
+  {
+    "console_command": "0028AE13",
+    "description": "Rejuvenation"
+  },
+  {
+    "console_command": "002C5A8E",
+    "description": "Commerce"
+  },
+  {
+    "console_command": "002C5A94",
+    "description": "Gastronomy"
+  },
+  {
+    "console_command": "0022EC82",
+    "description": "Persuasion"
+  },
+  {
+    "console_command": "0028B853",
+    "description": "Scavenging"
+  },
+  {
+    "console_command": "002C555B",
+    "description": "Theft"
+  },
+  {
+    "console_command": "002CFCAF",
+    "description": "Deception"
+  },
+  {
+    "console_command": "002C59E1",
+    "description": "Diplomacy"
+  },
+  {
+    "console_command": "002C59DE",
+    "description": "Intimidation"
+  },
+  {
+    "console_command": "002C53AE",
+    "description": "Isolation"
+  },
+  {
+    "console_command": "002C555F",
+    "description": "Negotiation"
+  },
+  {
+    "console_command": "002C555D",
+    "description": "Instigation"
+  },
+  {
+    "console_command": "002C890D",
+    "description": "Leadership"
+  },
+  {
+    "console_command": "0023826F",
+    "description": "Outpost Management"
+  },
+  {
+    "console_command": "002C5555",
+    "description": "Manipulation"
+  },
+  {
+    "console_command": "002C53B3",
+    "description": "Ship Command"
+  },
+  {
+    "console_command": "002C53B0",
+    "description": "Xenosociology"
+  },
+  {
+    "console_command": "002CFCAB",
+    "description": "Ballistics"
+  },
+  {
+    "console_command": "002CFCB0",
+    "description": "Dueling"
+  },
+  {
+    "console_command": "002C59DD",
+    "description": "Lasers"
+  },
+  {
+    "console_command": "002080FF",
+    "description": "Pistol Certification"
+  },
+  {
+    "console_command": "0027DF97",
+    "description": "Shotgun Certification"
+  },
+  {
+    "console_command": "002C5556",
+    "description": "Demolitions"
+  },
+  {
+    "console_command": "00147E38",
+    "description": "Heavy Weapons Certification"
+  },
+  {
+    "console_command": "0027DF96",
+    "description": "Incapacitation"
+  },
+  {
+    "console_command": "0027BAFD",
+    "description": "Particle Beams"
+  },
+  {
+    "console_command": "002CE2E0",
+    "description": "Rifle Certification"
+  },
+  {
+    "console_command": "002C890B",
+    "description": "Marksmanship"
+  },
+  {
+    "console_command": "002C555A",
+    "description": "Rapid Reloading"
+  },
+  {
+    "console_command": "002C53B1",
+    "description": "Sniper Certification"
+  },
+  {
+    "console_command": "002C59DA",
+    "description": "Targeting"
+  },
+  {
+    "console_command": "0027DF94",
+    "description": "Armor Penetration"
+  },
+  {
+    "console_command": "0027CBBA",
+    "description": "Crippling"
+  },
+  {
+    "console_command": "002C53AF",
+    "description": "Sharpshooting"
+  },
+  {
+    "console_command": "002C5560",
+    "description": "Astrodynamics"
+  },
+  {
+    "console_command": "002CE29F",
+    "description": "Geology"
+  },
+  {
+    "console_command": "002CE2DF",
+    "description": "Medicine"
+  },
+  {
+    "console_command": "002C555C",
+    "description": "Research Methods"
+  },
+  {
+    "console_command": "0027CBC1",
+    "description": "Surveying"
+  },
+  {
+    "console_command": "002C5557",
+    "description": "Botany"
+  },
+  {
+    "console_command": "002CFCB1",
+    "description": "Scanning"
+  },
+  {
+    "console_command": "0027CBC3",
+    "description": "Spacesuit Design"
+  },
+  {
+    "console_command": "002C890C",
+    "description": "Weapon Engineering"
+  },
+  {
+    "console_command": "002C5552",
+    "description": "Zoology"
+  },
+  {
+    "console_command": "0027CBBB",
+    "description": "Astrophysics"
+  },
+  {
+    "console_command": "002CE2C0",
+    "description": "Chemistry"
+  },
+  {
+    "console_command": "002C59E0",
+    "description": "Outpost Engineering"
+  },
+  {
+    "console_command": "002C2C5A",
+    "description": "Aneutronic Fusion"
+  },
+  {
+    "console_command": "0027CBC2",
+    "description": "Planetary Habitation"
+  },
+  {
+    "console_command": "0004CE2D",
+    "description": "Special Projects"
+  },
+  {
+    "console_command": "002CE2C2",
+    "description": "Ballistic Weapon Systems"
+  },
+  {
+    "console_command": "00146C2C",
+    "description": "Boost Pack Training"
+  },
+  {
+    "console_command": "002CFCAC",
+    "description": "Piloting"
+  },
+  {
+    "console_command": "002CE2E2",
+    "description": "Security"
+  },
+  {
+    "console_command": "002C5559",
+    "description": "Targeting Control Systems"
+  },
+  {
+    "console_command": "002C59DB",
+    "description": "Energy Weapon Systems"
+  },
+  {
+    "console_command": "002CE2DE",
+    "description": "Engine Systems"
+  },
+  {
+    "console_command": "00143B6B",
+    "description": "Payloads"
+  },
+  {
+    "console_command": "002C2C59",
+    "description": "Shield Systems"
+  },
+  {
+    "console_command": "002C5558",
+    "description": "Missile Weapon Systems"
+  },
+  {
+    "console_command": "002C2C5B",
+    "description": "Particle Beam Weapon Systems"
+  },
+  {
+    "console_command": "002C5553",
+    "description": "Robotics"
+  },
+  {
+    "console_command": "002C59DC",
+    "description": "Starship Design"
+  },
+  {
+    "console_command": "002AC953",
+    "description": "Starship Engineering"
+  },
+  {
+    "console_command": "0027B9ED",
+    "description": "Automated Weapon Systems"
+  },
+  {
+    "console_command": "0008C3EE",
+    "description": "Boost Assault Training"
+  },
+  {
+    "console_command": "002C53B2",
+    "description": "EM Weapon Systems"
+  },
+  {
+    "console_command": "ID Code",
+    "description": "Trait Name"
+  },
+  {
+    "console_command": "00227FDA",
+    "description": "Alien DNA"
+  },
+  {
+    "console_command": "00227FDF",
+    "description": "Dream Home"
+  },
+  {
+    "console_command": "00227FD6",
+    "description": "Empath"
+  },
+  {
+    "console_command": "00227FD7",
+    "description": "Extrovert"
+  },
+  {
+    "console_command": "00227FD5",
+    "description": "Freestar Collective Settler"
+  },
+  {
+    "console_command": "00227FD9",
+    "description": "Hero Worshipped"
+  },
+  {
+    "console_command": "00227FD8",
+    "description": "Introvert"
+  },
+  {
+    "console_command": "00227FDE",
+    "description": "Kid Stuff"
+  },
+  {
+    "console_command": "00227FD3",
+    "description": "Neon Street Rat"
+  },
+  {
+    "console_command": "00227FD2",
+    "description": "Raised Enlightened"
+  },
+  {
+    "console_command": "00227FD1",
+    "description": "Raised Universal"
+  },
+  {
+    "console_command": "00227FD0",
+    "description": "Serpent's Embrace"
+  },
+  {
+    "console_command": "00227FE2",
+    "description": "Spaced"
+  },
+  {
+    "console_command": "00227FE0",
+    "description": "Taskmaster"
+  },
+  {
+    "console_command": "00227FE1",
+    "description": "Terra Firma"
+  },
+  {
+    "console_command": "00227FD4",
+    "description": "United Colonies Native"
+  },
+  {
+    "console_command": "00227FDD",
+    "description": "Wanted"
+  },
+  {
+    "console_command": "ID Code",
+    "description": "Background Name"
+  },
+  {
+    "console_command": "0022EC76",
+    "description": "Beast Hunter"
+  },
+  {
+    "console_command": "0022EC81",
+    "description": "Bouncer"
+  },
+  {
+    "console_command": "0022EC80",
+    "description": "Bounty Hunter"
+  },
+  {
+    "console_command": "0022EC7F",
+    "description": "Chef"
+  },
+  {
+    "console_command": "0022EC7E",
+    "description": "Combat Medic"
+  },
+  {
+    "console_command": "0022EC7D",
+    "description": "Cyber Runner"
+  },
+  {
+    "console_command": "0022EC7C",
+    "description": "Cyberneticist"
+  },
+  {
+    "console_command": "0022EC7B",
+    "description": "Diplomat"
+  },
+  {
+    "console_command": "0022EC79",
+    "description": "Explorer"
+  },
+  {
+    "console_command": "0022EC78",
+    "description": "Gangster"
+  },
+  {
+    "console_command": "0022EC77",
+    "description": "Homesteader"
+  },
+  {
+    "console_command": "0022EC7A",
+    "description": "Industrialist"
+  },
+  {
+    "console_command": "0022EC75",
+    "description": "Long Hauler"
+  },
+  {
+    "console_command": "0022EC73",
+    "description": "Pilgrim"
+  },
+  {
+    "console_command": "0022EC72",
+    "description": "Professor"
+  },
+  {
+    "console_command": "0022EC74",
+    "description": "Ronin"
+  },
+  {
+    "console_command": "0022EC71",
+    "description": "Sculptor"
+  },
+  {
+    "console_command": "0022EC70",
+    "description": "Soldier"
+  },
+  {
+    "console_command": "0022EC6F",
+    "description": "Space Scoundrel"
+  },
+  {
+    "console_command": "0022EC6E",
+    "description": "Xenobiologist"
+  },
+  {
+    "console_command": "002DFD1A",
+    "description": "File Not Found"
+  }
+]
